@@ -1,0 +1,78 @@
+{
+  "schema_version": "ocr-pilot-v1",
+  "run_started_at": "2026-08-11T05:40:22.556470+00:00",
+  "elapsed_seconds": 12.141,
+  "scope": "bounded_ocr_pilot",
+  "book": {
+    "book_id": "contract-law-8e",
+    "pdf_page_count": 518,
+    "source_pdf_sha256": "891ff90ccc2c2baed8d17d37fb491ef927c7e48cd0ed2386aaa1a65e18d547da",
+    "source_pdf_unchanged": true
+  },
+  "runtime": {
+    "renderer": "pymupdf",
+    "renderer_version": "1.28.2",
+    "ocr_engine": "rapidocr",
+    "ocr_engine_version": "3.9.2",
+    "ocr_model_id": "rapidocr-default-small",
+    "onnxruntime_version": "1.28.0"
+  },
+  "parameters": {
+    "render_dpi": 300,
+    "preprocess_profile": "zh_book_cpu_v1",
+    "timeout_seconds": 90,
+    "max_attempts": 2
+  },
+  "raw_ocr_jsonl": "data\\raw\\ocr\\pages\\contract-law-8e.jsonl",
+  "summary": {
+    "requested_pages": 3,
+    "generated_pages": 2,
+    "failed_pages": 1,
+    "reused_pages": 0,
+    "all_generated_text_is_ocr_unverified": true
+  },
+  "pages": [
+    {
+      "pdf_page": 1,
+      "ocr_status": "generated",
+      "outcome": "rendered",
+      "attempts": 1,
+      "block_count": 23,
+      "ocr_avg_confidence": 0.983541304347826,
+      "ocr_text_sha256": "499fcabd62d9da82e160a2c2a9e3d3eacba8530886111851e7dba513e3817958",
+      "render_cache_key": "7983e92b615c14cce2702246baf10d3f545dba0222fd294c9ef3473d6359bcd7",
+      "error_code": null
+    },
+    {
+      "pdf_page": 2,
+      "ocr_status": "generated",
+      "outcome": "rendered",
+      "attempts": 1,
+      "block_count": 35,
+      "ocr_avg_confidence": 0.9838119999999999,
+      "ocr_text_sha256": "ac7d5c91d685a848e9d8b264aa68f99a10cd9a82f3f3b8341f8895c82fc83d9f",
+      "render_cache_key": "1557ea92cdc52407a537b7e2e75750e9a2e773ec5b93d3489bec8adea45c76b8",
+      "error_code": null
+    },
+    {
+      "pdf_page": 518,
+      "ocr_status": "failed",
+      "outcome": "rendered",
+      "attempts": 1,
+      "block_count": 0,
+      "ocr_avg_confidence": null,
+      "ocr_text_sha256": null,
+      "render_cache_key": "963ad23aebab5683b16e21f8551be3f5ed2467bfdb1dbb08a6086989acc005fe",
+      "error_code": "ocr_empty_result"
+    }
+  ],
+  "selection": {
+    "method": "explicit_pages",
+    "seed": null,
+    "pages": [
+      1,
+      2,
+      518
+    ]
+  }
+}

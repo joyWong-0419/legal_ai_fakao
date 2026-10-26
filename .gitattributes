@@ -1,0 +1,12 @@
+# 统一文本行尾为 LF。
+# 背景：legal_ai 在 Windows 上生成报告时会产生 CRLF，导致同一份 JSON 每次重建
+# 都出现整文件 diff。交给 git 归一化后，diff 只反映真实内容变化。
+* text=auto eol=lf
+
+# 二进制文件不参与行尾转换
+*.pdf binary
+*.epub binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.zip binary

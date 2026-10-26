@@ -1,0 +1,50 @@
+[
+  {
+    "law_id": "criminal-law-cn",
+    "title": "中华人民共和国刑法",
+    "short_title": "刑法",
+    "enacting_body": "全国人民代表大会",
+    "source_file": "law/刑法.md",
+    "enacted_on": "1997-03-14",
+    "base_effective_from": "1997-10-01",
+    "text_as_of": "2024-03-01",
+    "current_version_label": "刑法修正案（十二）",
+    "enabled": true
+  },
+  {
+    "law_id": "civil-code-cn",
+    "title": "中华人民共和国民法典",
+    "short_title": "民法典",
+    "enacting_body": "全国人民代表大会",
+    "source_file": "law/民法典.md",
+    "enacted_on": "2020-05-28",
+    "base_effective_from": "2021-01-01",
+    "text_as_of": "2021-01-01",
+    "current_version_label": "民法典原始版本",
+    "enabled": true
+  },
+  {
+    "law_id": "company-law-cn",
+    "title": "中华人民共和国公司法",
+    "short_title": "公司法",
+    "enacting_body": "全国人民代表大会常务委员会",
+    "source_file": "law/公司法(2023-12-29).md",
+    "enacted_on": "2023-12-29",
+    "base_effective_from": "2024-07-01",
+    "text_as_of": "2024-07-01",
+    "current_version_label": "2023年修订",
+    "enabled": true
+  },
+  {
+    "law_id": "civil-procedure-law-cn",
+    "title": "中华人民共和国民事诉讼法",
+    "short_title": "民诉法",
+    "enacting_body": "全国人民代表大会",
+    "source_file": "law/_derived/民诉法.md",
+    "enacted_on": "2023-09-01",
+    "base_effective_from": "2024-01-01",
+    "text_as_of": "2024-01-01",
+    "current_version_label": "2023年修正",
+    "enabled": true
+  }
+]

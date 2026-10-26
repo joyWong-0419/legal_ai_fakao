@@ -1,0 +1,4 @@
+interface:
+  display_name: "法律概念锻造"
+  short_description: "将法律概念、案例与错题锻造成兼顾法考和应然分析的中文学习材料"
+  default_prompt: "使用 $legal-concept-forge 分析一个法律概念，并区分现行法结论、制度理由与价值评价。"

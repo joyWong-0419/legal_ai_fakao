@@ -1,0 +1,4953 @@
+{
+  "schema_version": "golden-v1",
+  "dataset_id": "legal-ai-six-books-golden-v1",
+  "frozen_at": "2026-07-11T04:01:31Z",
+  "ranking_version": "rank-v1",
+  "questions": [
+    {
+      "question_id": "hart-01-primary-secondary-rules",
+      "question": "哈特所说的初级规则与次级规则分别规制什么，三类次级规则如何弥补简单初级规则体制的缺陷？",
+      "search_query": "初级规则 次级规则",
+      "category": "single_book",
+      "coverage_tags": [
+        "hart_rule_theory",
+        "初级规则",
+        "次级规则"
+      ],
+      "filters": {
+        "book_ids": [
+          "hart-concept-of-law-3e-zh"
+        ],
+        "jurisdictions": [],
+        "subjects": []
+      },
+      "expected_book_ids": [
+        "hart-concept-of-law-3e-zh"
+      ],
+      "candidate_scopes": [
+        {
+          "book_id": "hart-concept-of-law-3e-zh",
+          "pdf_page_range": [
+            71,
+            80
+          ],
+          "chapter_path": [
+            "第五章　法律作为初级规则与次级规则的结合"
+          ],
+          "basis": [
+            "outline",
+            "term_scan",
+            "source_inspection"
+          ]
+        }
+      ],
+      "judgments": [
+        {
+          "page_id": "hart-concept-of-law-3e-zh:p0079",
+          "book_id": "hart-concept-of-law-3e-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "hart-concept-of-law-3e-zh:p0079:s016"
+          ],
+          "supporting_sentence_sha256": [
+            "686a28b18a2a57389e7fefcc6a71e0b5e8d9c8d6b0cc05655ff50fba023a855e"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "hart-concept-of-law-3e-zh:p0078",
+          "book_id": "hart-concept-of-law-3e-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "hart-concept-of-law-3e-zh:p0078:s016"
+          ],
+          "supporting_sentence_sha256": [
+            "326e563fd64f2385cf4ebf1f50820220b720034500cd3efa47cf73d465ecb8c7"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "hart-concept-of-law-3e-zh:p0080",
+          "book_id": "hart-concept-of-law-3e-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "hart-concept-of-law-3e-zh:p0080:s002"
+          ],
+          "supporting_sentence_sha256": [
+            "cb7da17a445c19cf613047c64e66c46ae0492c6f9547c732f2064f437279f416"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "hart-concept-of-law-3e-zh:p0089",
+          "book_id": "hart-concept-of-law-3e-zh",
+          "relevance": 1,
+          "supporting_sentence_ids": [
+            "hart-concept-of-law-3e-zh:p0089:s026"
+          ],
+          "supporting_sentence_sha256": [
+            "86379c7a1723c3c7796473f1f9e8a117ad1b1e23beda40475ed54ed4742725aa"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "supporting_context"
+        },
+        {
+          "page_id": "hart-concept-of-law-3e-zh:p0194",
+          "book_id": "hart-concept-of-law-3e-zh",
+          "relevance": 0,
+          "supporting_sentence_ids": [],
+          "supporting_sentence_sha256": [],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "navigation_only"
+        },
+        {
+          "page_id": "hart-concept-of-law-3e-zh:p0072",
+          "book_id": "hart-concept-of-law-3e-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "hart-concept-of-law-3e-zh:p0072:s020"
+          ],
+          "supporting_sentence_sha256": [
+            "e908f7a0e35dc89f4021443c0ab6f1c99bc39e78ef4090df905ed078cd3b873f"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "independent_positive"
+        }
+      ]
+    },
+    {
+      "question_id": "hart-02-rule-of-recognition-validity",
+      "question": "承认规则如何提供法效力判准，而承认规则自身又以什么方式存在？",
+      "search_query": "承认规则 法效力",
+      "category": "single_book",
+      "coverage_tags": [
+        "hart_rule_theory",
+        "承认规则",
+        "法效力"
+      ],
+      "filters": {
+        "book_ids": [
+          "hart-concept-of-law-3e-zh"
+        ],
+        "jurisdictions": [],
+        "subjects": []
+      },
+      "expected_book_ids": [
+        "hart-concept-of-law-3e-zh"
+      ],
+      "candidate_scopes": [
+        {
+          "book_id": "hart-concept-of-law-3e-zh",
+          "pdf_page_range": [
+            81,
+            90
+          ],
+          "chapter_path": [
+            "第六章　法体系的基础",
+            "第一节　承认规则与法效力"
+          ],
+          "basis": [
+            "outline",
+            "term_scan",
+            "source_inspection"
+          ]
+        },
+        {
+          "book_id": "hart-concept-of-law-3e-zh",
+          "pdf_page_range": [
+            180,
+            180
+          ],
+          "chapter_path": [
+            "注释"
+          ],
+          "basis": [
+            "term_scan",
+            "source_inspection"
+          ]
+        }
+      ],
+      "judgments": [
+        {
+          "page_id": "hart-concept-of-law-3e-zh:p0085",
+          "book_id": "hart-concept-of-law-3e-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "hart-concept-of-law-3e-zh:p0085:s008"
+          ],
+          "supporting_sentence_sha256": [
+            "8d6ed9ad6641607149ef046ab2f44a81be8aa76080669d1901045388056e712b"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "hart-concept-of-law-3e-zh:p0179",
+          "book_id": "hart-concept-of-law-3e-zh",
+          "relevance": 1,
+          "supporting_sentence_ids": [
+            "hart-concept-of-law-3e-zh:p0179:s007"
+          ],
+          "supporting_sentence_sha256": [
+            "ad3b0b4680cdaed4514cfae272d12c023e9b5529c465c5b0a918034de78b542b"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "supporting_note"
+        },
+        {
+          "page_id": "hart-concept-of-law-3e-zh:p0024",
+          "book_id": "hart-concept-of-law-3e-zh",
+          "relevance": 0,
+          "supporting_sentence_ids": [],
+          "supporting_sentence_sha256": [],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "incidental_term"
+        },
+        {
+          "page_id": "hart-concept-of-law-3e-zh:p0106",
+          "book_id": "hart-concept-of-law-3e-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "hart-concept-of-law-3e-zh:p0106:s012"
+          ],
+          "supporting_sentence_sha256": [
+            "97aa7e2ac1c1bca2423ffd04f2bead02b9094e471e596e2d4480b0b9707200c8"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "hart-concept-of-law-3e-zh:p0081",
+          "book_id": "hart-concept-of-law-3e-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "hart-concept-of-law-3e-zh:p0081:s001"
+          ],
+          "supporting_sentence_sha256": [
+            "f846ebe763a3ff1333ee7dc1244cf3296e9cb18087661b88bb60ebd2562ad1a2"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "hart-concept-of-law-3e-zh:p0180",
+          "book_id": "hart-concept-of-law-3e-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "hart-concept-of-law-3e-zh:p0180:s019"
+          ],
+          "supporting_sentence_sha256": [
+            "12875707433ec325f7af31303f2bc27c655034f37c10cebb24e7418909d1e1cf"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "independent_positive"
+        }
+      ]
+    },
+    {
+      "question_id": "hart-03-open-texture",
+      "question": "法律的开放性结构为何使疑难案件中的解释与选择不可避免？",
+      "search_query": "开放性结构 法律",
+      "category": "single_book",
+      "coverage_tags": [
+        "hart_rule_theory",
+        "开放性结构",
+        "疑难案件"
+      ],
+      "filters": {
+        "book_ids": [
+          "hart-concept-of-law-3e-zh"
+        ],
+        "jurisdictions": [],
+        "subjects": []
+      },
+      "expected_book_ids": [
+        "hart-concept-of-law-3e-zh"
+      ],
+      "candidate_scopes": [
+        {
+          "book_id": "hart-concept-of-law-3e-zh",
+          "pdf_page_range": [
+            94,
+            99
+          ],
+          "chapter_path": [
+            "第七章　形式主义与规则怀疑论",
+            "第一节　法律的开放性结构"
+          ],
+          "basis": [
+            "outline",
+            "term_scan",
+            "source_inspection"
+          ]
+        }
+      ],
+      "judgments": [
+        {
+          "page_id": "hart-concept-of-law-3e-zh:p0009",
+          "book_id": "hart-concept-of-law-3e-zh",
+          "relevance": 0,
+          "supporting_sentence_ids": [],
+          "supporting_sentence_sha256": [],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "navigation_only"
+        },
+        {
+          "page_id": "hart-concept-of-law-3e-zh:p0096",
+          "book_id": "hart-concept-of-law-3e-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "hart-concept-of-law-3e-zh:p0096:s002",
+            "hart-concept-of-law-3e-zh:p0096:s003"
+          ],
+          "supporting_sentence_sha256": [
+            "1a69318af6c42e0cfc963ef3542d98ccf3fa9a88fe4e3ceb5173499c868b616d",
+            "dababfa81b8d505c716e3754ae78556f98de85ea494e821e22359328a9f5a429"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "hart-concept-of-law-3e-zh:p0094",
+          "book_id": "hart-concept-of-law-3e-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "hart-concept-of-law-3e-zh:p0094:s001"
+          ],
+          "supporting_sentence_sha256": [
+            "cb79a6d01b808f99bc125ccb88e1654226b4249065678de3daf94b8200ef1b51"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "hart-concept-of-law-3e-zh:p0131",
+          "book_id": "hart-concept-of-law-3e-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "hart-concept-of-law-3e-zh:p0131:s007"
+          ],
+          "supporting_sentence_sha256": [
+            "12f8eed5023ca7029082669e93c16f10934f663aa3e29fb9f5cb999e195671ea"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "hart-concept-of-law-3e-zh:p0115",
+          "book_id": "hart-concept-of-law-3e-zh",
+          "relevance": 0,
+          "supporting_sentence_ids": [],
+          "supporting_sentence_sha256": [],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "chapter_metadata_only"
+        },
+        {
+          "page_id": "hart-concept-of-law-3e-zh:p0095",
+          "book_id": "hart-concept-of-law-3e-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "hart-concept-of-law-3e-zh:p0095:s028"
+          ],
+          "supporting_sentence_sha256": [
+            "8e660aefe85ccd5380d6337301cc423ed746076ccfceafc69b33ee698106d146"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "independent_positive"
+        }
+      ]
+    },
+    {
+      "question_id": "hart-04-internal-external-view",
+      "question": "规则的内在观点与外在观点有何区别，这一区分为何影响对法律义务的说明？",
+      "search_query": "内在观点 外在观点",
+      "category": "single_book",
+      "coverage_tags": [
+        "hart_rule_theory",
+        "内在观点",
+        "外在观点"
+      ],
+      "filters": {
+        "book_ids": [
+          "hart-concept-of-law-3e-zh"
+        ],
+        "jurisdictions": [],
+        "subjects": []
+      },
+      "expected_book_ids": [
+        "hart-concept-of-law-3e-zh"
+      ],
+      "candidate_scopes": [
+        {
+          "book_id": "hart-concept-of-law-3e-zh",
+          "pdf_page_range": [
+            72,
+            76
+          ],
+          "chapter_path": [
+            "第五章　法律作为初级规则与次级规则的结合",
+            "第二节　义务的观念"
+          ],
+          "basis": [
+            "outline",
+            "term_scan",
+            "source_inspection"
+          ]
+        },
+        {
+          "book_id": "hart-concept-of-law-3e-zh",
+          "pdf_page_range": [
+            149,
+            155
+          ],
+          "chapter_path": [
+            "后记"
+          ],
+          "basis": [
+            "term_scan",
+            "source_inspection"
+          ]
+        }
+      ],
+      "judgments": [
+        {
+          "page_id": "hart-concept-of-law-3e-zh:p0076",
+          "book_id": "hart-concept-of-law-3e-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "hart-concept-of-law-3e-zh:p0076:s015"
+          ],
+          "supporting_sentence_sha256": [
+            "63ccb6ceac930dd67d357168e5a3f209460078b0eabcf4cb598188bd71de3ed1"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "hart-concept-of-law-3e-zh:p0149",
+          "book_id": "hart-concept-of-law-3e-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "hart-concept-of-law-3e-zh:p0149:s008"
+          ],
+          "supporting_sentence_sha256": [
+            "7585c2b15546ed9016d7764461ee38c927a0a2aa7f6821a5d801948f6f950d8a"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "hart-concept-of-law-3e-zh:p0155",
+          "book_id": "hart-concept-of-law-3e-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "hart-concept-of-law-3e-zh:p0155:s011"
+          ],
+          "supporting_sentence_sha256": [
+            "2124a7d3263d1b3b43567d875978bbb1142c3274abdf5c9363dd1b8614066587"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "hart-concept-of-law-3e-zh:p0178",
+          "book_id": "hart-concept-of-law-3e-zh",
+          "relevance": 1,
+          "supporting_sentence_ids": [
+            "hart-concept-of-law-3e-zh:p0178:s003"
+          ],
+          "supporting_sentence_sha256": [
+            "cea9f3825b43efe2bc300ad931abf73fed4f6970e40e4190501e5723ee2b8f83"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "supporting_note"
+        },
+        {
+          "page_id": "hart-concept-of-law-3e-zh:p0080",
+          "book_id": "hart-concept-of-law-3e-zh",
+          "relevance": 1,
+          "supporting_sentence_ids": [
+            "hart-concept-of-law-3e-zh:p0080:s009"
+          ],
+          "supporting_sentence_sha256": [
+            "df578f4cf5d92ce861a7ab7deee9a98b0c47d158d8faf64da55f769d40fa8f7e"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "supporting_context"
+        },
+        {
+          "page_id": "hart-concept-of-law-3e-zh:p0075",
+          "book_id": "hart-concept-of-law-3e-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "hart-concept-of-law-3e-zh:p0075:s028"
+          ],
+          "supporting_sentence_sha256": [
+            "5c2a14e763370717f8e99c056fc22234499c1014193e34c6b3ba7bae685f20b2"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "independent_positive"
+        }
+      ]
+    },
+    {
+      "question_id": "hart-05-minimum-content-natural-law",
+      "question": "哈特为何主张自然法具有最低限度内容，这一内容与自我保存及法律道德规则有何关系？",
+      "search_query": "自然法 最低限度内容",
+      "category": "single_book",
+      "coverage_tags": [
+        "hart_rule_theory",
+        "自然法",
+        "最低限度内容"
+      ],
+      "filters": {
+        "book_ids": [
+          "hart-concept-of-law-3e-zh"
+        ],
+        "jurisdictions": [],
+        "subjects": []
+      },
+      "expected_book_ids": [
+        "hart-concept-of-law-3e-zh"
+      ],
+      "candidate_scopes": [
+        {
+          "book_id": "hart-concept-of-law-3e-zh",
+          "pdf_page_range": [
+            123,
+            131
+          ],
+          "chapter_path": [
+            "第九章　法律与道德",
+            "第二节　自然法的最低限度内容"
+          ],
+          "basis": [
+            "outline",
+            "term_scan",
+            "source_inspection"
+          ]
+        }
+      ],
+      "judgments": [
+        {
+          "page_id": "hart-concept-of-law-3e-zh:p0010",
+          "book_id": "hart-concept-of-law-3e-zh",
+          "relevance": 0,
+          "supporting_sentence_ids": [],
+          "supporting_sentence_sha256": [],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "navigation_only"
+        },
+        {
+          "page_id": "hart-concept-of-law-3e-zh:p0126",
+          "book_id": "hart-concept-of-law-3e-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "hart-concept-of-law-3e-zh:p0126:s012",
+            "hart-concept-of-law-3e-zh:p0126:s015"
+          ],
+          "supporting_sentence_sha256": [
+            "c6f30822a2faa0daf9ff3bf1c672c7044ae3733c9e8a08969453e9ca0bbdde89",
+            "e19ab0384de4bdd607531f90aaa66f7273b0122750423b3e2ae5c89e0fcd6371"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "hart-concept-of-law-3e-zh:p0124",
+          "book_id": "hart-concept-of-law-3e-zh",
+          "relevance": 1,
+          "supporting_sentence_ids": [
+            "hart-concept-of-law-3e-zh:p0124:s006"
+          ],
+          "supporting_sentence_sha256": [
+            "dc64ae7c85d292a45230501cdc93fa0fc85843d4cc0e7010982d7569a7ff6277"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "supporting_context"
+        },
+        {
+          "page_id": "hart-concept-of-law-3e-zh:p0199",
+          "book_id": "hart-concept-of-law-3e-zh",
+          "relevance": 1,
+          "supporting_sentence_ids": [
+            "hart-concept-of-law-3e-zh:p0199:s022"
+          ],
+          "supporting_sentence_sha256": [
+            "f6a27253f288e2c9eb35b67612091c221a5cc4940df6f76823472804be26831b"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "supporting_note"
+        },
+        {
+          "page_id": "hart-concept-of-law-3e-zh:p0185",
+          "book_id": "hart-concept-of-law-3e-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "hart-concept-of-law-3e-zh:p0185:s029"
+          ],
+          "supporting_sentence_sha256": [
+            "4537b6a1560b5ffce8374e6fa0f6b6065b933ecf5363c2677b75caf6d3d6a277"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "hart-concept-of-law-3e-zh:p0128",
+          "book_id": "hart-concept-of-law-3e-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "hart-concept-of-law-3e-zh:p0128:s027"
+          ],
+          "supporting_sentence_sha256": [
+            "373e0ef4ae28260071e1a4a3f913c88ff1e542e611f1d4cd3a8d201f20f50282"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "independent_positive"
+        }
+      ]
+    },
+    {
+      "question_id": "zhang-v1-01-defense-limit",
+      "question": "怎样判断正当防卫是否明显超过必要限度并造成重大损害，防卫过当需要哪些条件？",
+      "search_query": "正当防卫 必要限度",
+      "category": "single_book",
+      "coverage_tags": [
+        "china_criminal_general",
+        "正当防卫",
+        "防卫过当"
+      ],
+      "filters": {
+        "book_ids": [
+          "zhang-criminal-law-6e-v1"
+        ],
+        "jurisdictions": [],
+        "subjects": []
+      },
+      "expected_book_ids": [
+        "zhang-criminal-law-6e-v1"
+      ],
+      "candidate_scopes": [
+        {
+          "book_id": "zhang-criminal-law-6e-v1",
+          "pdf_page_range": [
+            289,
+            307
+          ],
+          "chapter_path": [
+            "第二编 犯罪论",
+            "第五章 不法"
+          ],
+          "basis": [
+            "outline",
+            "term_scan",
+            "source_inspection"
+          ]
+        }
+      ],
+      "judgments": [
+        {
+          "page_id": "zhang-criminal-law-6e-v1:p0307",
+          "book_id": "zhang-criminal-law-6e-v1",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "zhang-criminal-law-6e-v1:p0307:s026"
+          ],
+          "supporting_sentence_sha256": [
+            "b41798fcad8b16c6d34c40dbaac9d1e84422f9542e0c6ccdf14371d5ac8584a7"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "zhang-criminal-law-6e-v1:p0304",
+          "book_id": "zhang-criminal-law-6e-v1",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "zhang-criminal-law-6e-v1:p0304:s005"
+          ],
+          "supporting_sentence_sha256": [
+            "409bc014c1161080748e54f3b480cb238bf3bf39dc3e84301e0d20874562695f"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "zhang-criminal-law-6e-v1:p0291",
+          "book_id": "zhang-criminal-law-6e-v1",
+          "relevance": 1,
+          "supporting_sentence_ids": [
+            "zhang-criminal-law-6e-v1:p0291:s002"
+          ],
+          "supporting_sentence_sha256": [
+            "6636f4778fb07f04a1e2a1877ec7ddb965fb61b40352a62d7cbc90c18f8fef6a"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "supporting_context"
+        },
+        {
+          "page_id": "zhang-criminal-law-6e-v1:p0322",
+          "book_id": "zhang-criminal-law-6e-v1",
+          "relevance": 1,
+          "supporting_sentence_ids": [
+            "zhang-criminal-law-6e-v1:p0322:s004"
+          ],
+          "supporting_sentence_sha256": [
+            "098642011e774ca3d6cfd08ae2352dc655e23378a2db79e54e446ba19883294d"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "boundary_comparison"
+        },
+        {
+          "page_id": "zhang-criminal-law-6e-v1:p0305",
+          "book_id": "zhang-criminal-law-6e-v1",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "zhang-criminal-law-6e-v1:p0305:s001"
+          ],
+          "supporting_sentence_sha256": [
+            "591b6d294c2a92306e72665a959ff0d95d115cfc2ea3424cc7aa208c96a38bd5"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "zhang-criminal-law-6e-v1:p0303",
+          "book_id": "zhang-criminal-law-6e-v1",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "zhang-criminal-law-6e-v1:p0303:s026"
+          ],
+          "supporting_sentence_sha256": [
+            "65dc8e5fa4f85b2e2e1504d7c610eafcf6086679a735baaa51e717e59a0d1252"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "independent_positive"
+        }
+      ]
+    },
+    {
+      "question_id": "zhang-v1-02-causation-attribution",
+      "question": "刑法上的因果关系与客观归责是什么关系，事实因果判断和结果归属应如何区分？",
+      "search_query": "因果关系 客观归责",
+      "category": "single_book",
+      "coverage_tags": [
+        "china_criminal_general",
+        "因果关系",
+        "客观归责"
+      ],
+      "filters": {
+        "book_ids": [
+          "zhang-criminal-law-6e-v1"
+        ],
+        "jurisdictions": [],
+        "subjects": []
+      },
+      "expected_book_ids": [
+        "zhang-criminal-law-6e-v1"
+      ],
+      "candidate_scopes": [
+        {
+          "book_id": "zhang-criminal-law-6e-v1",
+          "pdf_page_range": [
+            252,
+            260
+          ],
+          "chapter_path": [
+            "第二编 犯罪论",
+            "第五章 不法"
+          ],
+          "basis": [
+            "term_scan",
+            "source_inspection"
+          ]
+        }
+      ],
+      "judgments": [
+        {
+          "page_id": "zhang-criminal-law-6e-v1:p0260",
+          "book_id": "zhang-criminal-law-6e-v1",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "zhang-criminal-law-6e-v1:p0260:s003"
+          ],
+          "supporting_sentence_sha256": [
+            "4f4e853ea5d75fc824cccd9c77f5bc6f146d206a5cb902630acd0076049091d8"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "zhang-criminal-law-6e-v1:p0252",
+          "book_id": "zhang-criminal-law-6e-v1",
+          "relevance": 1,
+          "supporting_sentence_ids": [
+            "zhang-criminal-law-6e-v1:p0252:s011"
+          ],
+          "supporting_sentence_sha256": [
+            "ecff78a1f27b446b2bd9864f315385450925283cefe3edd0882967e616d66a21"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "supporting_context"
+        },
+        {
+          "page_id": "zhang-criminal-law-6e-v1:p0259",
+          "book_id": "zhang-criminal-law-6e-v1",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "zhang-criminal-law-6e-v1:p0259:s003"
+          ],
+          "supporting_sentence_sha256": [
+            "6a18efd5719f3ea2871ffc4db7de02e774fff3c0ff9244bec77cffe46a68d97d"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "zhang-criminal-law-6e-v1:p0256",
+          "book_id": "zhang-criminal-law-6e-v1",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "zhang-criminal-law-6e-v1:p0256:s015"
+          ],
+          "supporting_sentence_sha256": [
+            "544555ac56108570e45115c83bcf45a3bfdab54ba5434f098b093d53e1b65e3b"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "zhang-criminal-law-6e-v1:p0253",
+          "book_id": "zhang-criminal-law-6e-v1",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "zhang-criminal-law-6e-v1:p0253:s019"
+          ],
+          "supporting_sentence_sha256": [
+            "08bd1282f73d0e77e403b5cb603fe787833d263966f60c2d2aa504af466f605e"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "zhang-criminal-law-6e-v1:p0257",
+          "book_id": "zhang-criminal-law-6e-v1",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "zhang-criminal-law-6e-v1:p0257:s012"
+          ],
+          "supporting_sentence_sha256": [
+            "6e2d7fba1122d8468683b955439b9f69faab55c5420b38a361090bad34650ec1"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "independent_positive"
+        }
+      ]
+    },
+    {
+      "question_id": "zhang-v1-03-indirect-intent-negligence",
+      "question": "间接故意与过于自信的过失应如何区分，结果回避措施和对法益的态度有什么意义？",
+      "search_query": "间接故意 过于自信的过失",
+      "category": "single_book",
+      "coverage_tags": [
+        "china_criminal_general",
+        "间接故意",
+        "过于自信的过失"
+      ],
+      "filters": {
+        "book_ids": [
+          "zhang-criminal-law-6e-v1"
+        ],
+        "jurisdictions": [],
+        "subjects": []
+      },
+      "expected_book_ids": [
+        "zhang-criminal-law-6e-v1"
+      ],
+      "candidate_scopes": [
+        {
+          "book_id": "zhang-criminal-law-6e-v1",
+          "pdf_page_range": [
+            363,
+            416
+          ],
+          "chapter_path": [
+            "第二编 犯罪论",
+            "第六章 责任"
+          ],
+          "basis": [
+            "term_scan",
+            "source_inspection"
+          ]
+        }
+      ],
+      "judgments": [
+        {
+          "page_id": "zhang-criminal-law-6e-v1:p0416",
+          "book_id": "zhang-criminal-law-6e-v1",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "zhang-criminal-law-6e-v1:p0416:s010"
+          ],
+          "supporting_sentence_sha256": [
+            "ea4bc861a69cdfcf2da97f5f9d9406d17508374705dfccae1ef929657c1516e4"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "zhang-criminal-law-6e-v1:p0374",
+          "book_id": "zhang-criminal-law-6e-v1",
+          "relevance": 1,
+          "supporting_sentence_ids": [
+            "zhang-criminal-law-6e-v1:p0374:s022"
+          ],
+          "supporting_sentence_sha256": [
+            "e06e006e53a11b794f32c21f9f3015d98c20f559ec49a2892d80f33a1c4d1f72"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "supporting_context"
+        },
+        {
+          "page_id": "zhang-criminal-law-6e-v1:p0414",
+          "book_id": "zhang-criminal-law-6e-v1",
+          "relevance": 1,
+          "supporting_sentence_ids": [
+            "zhang-criminal-law-6e-v1:p0414:s019"
+          ],
+          "supporting_sentence_sha256": [
+            "0ceb22e16b2b5954caa66ebeb1df462040763013c3ff6624f6d0ee58043e06cd"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "supporting_definition"
+        },
+        {
+          "page_id": "zhang-criminal-law-6e-v1:p0415",
+          "book_id": "zhang-criminal-law-6e-v1",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "zhang-criminal-law-6e-v1:p0415:s002"
+          ],
+          "supporting_sentence_sha256": [
+            "4ad486ee653ec2b405eecfde796cb4e755be78bc6efd91362b8ef04abc6e478f"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "zhang-criminal-law-6e-v1:p0363",
+          "book_id": "zhang-criminal-law-6e-v1",
+          "relevance": 1,
+          "supporting_sentence_ids": [
+            "zhang-criminal-law-6e-v1:p0363:s023"
+          ],
+          "supporting_sentence_sha256": [
+            "cf34f46ad3b14b12eca111796b82473659c05c2a5c462b6f497f90f704547a64"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "supporting_context"
+        },
+        {
+          "page_id": "zhang-criminal-law-6e-v1:p0364",
+          "book_id": "zhang-criminal-law-6e-v1",
+          "relevance": 1,
+          "supporting_sentence_ids": [
+            "zhang-criminal-law-6e-v1:p0364:s003"
+          ],
+          "supporting_sentence_sha256": [
+            "fca71dde41de2129198fbbb8593cd25e92d2ec757acbe36524be225811cb28b9"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "independent_positive"
+        }
+      ]
+    },
+    {
+      "question_id": "zhang-v1-04-attempt-commencement",
+      "question": "张明楷如何以法益侵害的紧迫危险判断犯罪实行的着手？",
+      "search_query": "着手 紧迫危险",
+      "category": "single_book",
+      "coverage_tags": [
+        "china_criminal_general",
+        "犯罪未遂",
+        "着手"
+      ],
+      "filters": {
+        "book_ids": [
+          "zhang-criminal-law-6e-v1"
+        ],
+        "jurisdictions": [],
+        "subjects": []
+      },
+      "expected_book_ids": [
+        "zhang-criminal-law-6e-v1"
+      ],
+      "candidate_scopes": [
+        {
+          "book_id": "zhang-criminal-law-6e-v1",
+          "pdf_page_range": [
+            470,
+            474
+          ],
+          "chapter_path": [
+            "第二编 犯罪论",
+            "第七章 犯罪的特殊形态"
+          ],
+          "basis": [
+            "term_scan",
+            "source_inspection"
+          ]
+        }
+      ],
+      "judgments": [
+        {
+          "page_id": "zhang-criminal-law-6e-v1:p0471",
+          "book_id": "zhang-criminal-law-6e-v1",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "zhang-criminal-law-6e-v1:p0471:s008"
+          ],
+          "supporting_sentence_sha256": [
+            "375efddc587455577be97d6d3aec1195382278bd5c3c2073cee2eb641a1e565e"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "zhang-criminal-law-6e-v1:p0474",
+          "book_id": "zhang-criminal-law-6e-v1",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "zhang-criminal-law-6e-v1:p0474:s006"
+          ],
+          "supporting_sentence_sha256": [
+            "ec7df14f455e89a3bdf93777ea0c1504c897ddf9be21aef994785c7eebd186bf"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "zhang-criminal-law-6e-v1:p0470",
+          "book_id": "zhang-criminal-law-6e-v1",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "zhang-criminal-law-6e-v1:p0470:s002"
+          ],
+          "supporting_sentence_sha256": [
+            "d6c1d13c67190a2bfa272f618a70d6af0b92a4b59700407c972d9ce24b693926"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "competing_test"
+        },
+        {
+          "page_id": "zhang-criminal-law-6e-v1:p0473",
+          "book_id": "zhang-criminal-law-6e-v1",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "zhang-criminal-law-6e-v1:p0473:s002"
+          ],
+          "supporting_sentence_sha256": [
+            "147cd820fcf9fd45aab70e78db36f63961e00685e5badd7e79b5806314ba1c2d"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "application"
+        },
+        {
+          "page_id": "zhang-criminal-law-6e-v1:p0292",
+          "book_id": "zhang-criminal-law-6e-v1",
+          "relevance": 0,
+          "supporting_sentence_ids": [],
+          "supporting_sentence_sha256": [],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "different_doctrine"
+        },
+        {
+          "page_id": "zhang-criminal-law-6e-v1:p0472",
+          "book_id": "zhang-criminal-law-6e-v1",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "zhang-criminal-law-6e-v1:p0472:s018"
+          ],
+          "supporting_sentence_sha256": [
+            "e33e8101a3314cc28d88c7ceedac7f0a8c4dc99974a0c6d69e9c6e00df533c60"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "independent_positive"
+        }
+      ]
+    },
+    {
+      "question_id": "zhang-v1-05-perpetrator-accomplice",
+      "question": "共同犯罪中正犯与狭义共犯如何区分，共同正犯应如何定位？",
+      "search_query": "正犯 狭义共犯",
+      "category": "single_book",
+      "coverage_tags": [
+        "china_criminal_general",
+        "共同犯罪",
+        "正犯",
+        "狭义共犯"
+      ],
+      "filters": {
+        "book_ids": [
+          "zhang-criminal-law-6e-v1"
+        ],
+        "jurisdictions": [],
+        "subjects": []
+      },
+      "expected_book_ids": [
+        "zhang-criminal-law-6e-v1"
+      ],
+      "candidate_scopes": [
+        {
+          "book_id": "zhang-criminal-law-6e-v1",
+          "pdf_page_range": [
+            536,
+            551
+          ],
+          "chapter_path": [
+            "第二编 犯罪论",
+            "第八章 共同犯罪"
+          ],
+          "basis": [
+            "outline",
+            "term_scan",
+            "source_inspection"
+          ]
+        },
+        {
+          "book_id": "zhang-criminal-law-6e-v1",
+          "pdf_page_range": [
+            637,
+            637
+          ],
+          "chapter_path": [
+            "第二编 犯罪论",
+            "第八章 共同犯罪"
+          ],
+          "basis": [
+            "term_scan",
+            "source_inspection"
+          ]
+        }
+      ],
+      "judgments": [
+        {
+          "page_id": "zhang-criminal-law-6e-v1:p0551",
+          "book_id": "zhang-criminal-law-6e-v1",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "zhang-criminal-law-6e-v1:p0551:s010"
+          ],
+          "supporting_sentence_sha256": [
+            "8ba8dd09c8481d9418b240207494908b49f4f62327a9ed7419659ed2b5bb7202"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "application"
+        },
+        {
+          "page_id": "zhang-criminal-law-6e-v1:p0541",
+          "book_id": "zhang-criminal-law-6e-v1",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "zhang-criminal-law-6e-v1:p0541:s019"
+          ],
+          "supporting_sentence_sha256": [
+            "45f5de72ec21ababf8e696ff629f41c08b5199ad63aba2e14340de114cf4651f"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "zhang-criminal-law-6e-v1:p0536",
+          "book_id": "zhang-criminal-law-6e-v1",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "zhang-criminal-law-6e-v1:p0536:s023"
+          ],
+          "supporting_sentence_sha256": [
+            "820df59dbc22a37dce40c48fe126bc3d658787e85ee53a1ed0f05fd1722fcb90"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "zhang-criminal-law-6e-v1:p0544",
+          "book_id": "zhang-criminal-law-6e-v1",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "zhang-criminal-law-6e-v1:p0544:s016"
+          ],
+          "supporting_sentence_sha256": [
+            "df11b4af76715fde9fb4c3131b260546972c8cf5b137a33f179fe4b312bef832"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "competing_test"
+        },
+        {
+          "page_id": "zhang-criminal-law-6e-v1:p0637",
+          "book_id": "zhang-criminal-law-6e-v1",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "zhang-criminal-law-6e-v1:p0637:s018"
+          ],
+          "supporting_sentence_sha256": [
+            "221bcbf39baa8f67067e0696e01c526beadea56a1ac769f53ba690b242b4f955"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "application"
+        },
+        {
+          "page_id": "zhang-criminal-law-6e-v1:p0545",
+          "book_id": "zhang-criminal-law-6e-v1",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "zhang-criminal-law-6e-v1:p0545:s002"
+          ],
+          "supporting_sentence_sha256": [
+            "e5df487cf87e83ac16bf2502c5e9d1b2dbe16a075cbf2e628d717fa466cc76d7"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "independent_positive"
+        }
+      ]
+    },
+    {
+      "question_id": "zhang-v2-01-after-theft-robbery",
+      "question": "盗窃等前行为在什么条件下转化为事后抢劫，暴力程度和前行为成立范围如何判断？",
+      "search_query": "盗窃罪 事后抢劫罪",
+      "category": "single_book",
+      "coverage_tags": [
+        "china_criminal_special",
+        "盗窃罪",
+        "事后抢劫罪"
+      ],
+      "filters": {
+        "book_ids": [
+          "zhang-criminal-law-6e-v2"
+        ],
+        "jurisdictions": [],
+        "subjects": []
+      },
+      "expected_book_ids": [
+        "zhang-criminal-law-6e-v2"
+      ],
+      "candidate_scopes": [
+        {
+          "book_id": "zhang-criminal-law-6e-v2",
+          "pdf_page_range": [
+            453,
+            461
+          ],
+          "chapter_path": [
+            "第四编 罪刑各论",
+            "第二十二章 侵犯财产罪"
+          ],
+          "basis": [
+            "outline",
+            "term_scan",
+            "source_inspection"
+          ]
+        }
+      ],
+      "judgments": [
+        {
+          "page_id": "zhang-criminal-law-6e-v2:p0408",
+          "book_id": "zhang-criminal-law-6e-v2",
+          "relevance": 1,
+          "supporting_sentence_ids": [
+            "zhang-criminal-law-6e-v2:p0408:s022"
+          ],
+          "supporting_sentence_sha256": [
+            "c1d4a742711c68b78ba317504f7932b9064de3bc02f0d9439dc38b12a0f8efba"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "supporting_definition"
+        },
+        {
+          "page_id": "zhang-criminal-law-6e-v2:p0459",
+          "book_id": "zhang-criminal-law-6e-v2",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "zhang-criminal-law-6e-v2:p0459:s016"
+          ],
+          "supporting_sentence_sha256": [
+            "dda5cdd20d311f45d1f4bbc0c2636f1749251eb08a032f7b2d345baa7e954926"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "zhang-criminal-law-6e-v2:p0461",
+          "book_id": "zhang-criminal-law-6e-v2",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "zhang-criminal-law-6e-v2:p0461:s007"
+          ],
+          "supporting_sentence_sha256": [
+            "41c12b509ea433732c6e10b7b79dcad28503f08df712891a853e1b5e346516a4"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "zhang-criminal-law-6e-v2:p0458",
+          "book_id": "zhang-criminal-law-6e-v2",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "zhang-criminal-law-6e-v2:p0458:s005"
+          ],
+          "supporting_sentence_sha256": [
+            "eb9283885904214be479b466677c409c129fe5e2440bc06b3f41d0a0dc08ed37"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "zhang-criminal-law-6e-v2:p0454",
+          "book_id": "zhang-criminal-law-6e-v2",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "zhang-criminal-law-6e-v2:p0454:s012"
+          ],
+          "supporting_sentence_sha256": [
+            "72be65121e12229790379f3a88e0ca71963a391db40414aab6f94ea68d31330a"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "zhang-criminal-law-6e-v2:p0457",
+          "book_id": "zhang-criminal-law-6e-v2",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "zhang-criminal-law-6e-v2:p0457:s014"
+          ],
+          "supporting_sentence_sha256": [
+            "a44eab19766fe852a91747261d80205ed36995ceba2a574983b4c8d2fe70a92b"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "independent_positive"
+        }
+      ]
+    },
+    {
+      "question_id": "zhang-v2-02-fraud-disposition",
+      "question": "诈骗罪中的处分行为应如何理解，为什么要求财产损害直接产生于处分行为？",
+      "search_query": "诈骗罪 处分行为",
+      "category": "single_book",
+      "coverage_tags": [
+        "china_criminal_special",
+        "诈骗罪",
+        "处分行为"
+      ],
+      "filters": {
+        "book_ids": [
+          "zhang-criminal-law-6e-v2"
+        ],
+        "jurisdictions": [],
+        "subjects": []
+      },
+      "expected_book_ids": [
+        "zhang-criminal-law-6e-v2"
+      ],
+      "candidate_scopes": [
+        {
+          "book_id": "zhang-criminal-law-6e-v2",
+          "pdf_page_range": [
+            482,
+            502
+          ],
+          "chapter_path": [
+            "第四编 罪刑各论",
+            "第二十二章 侵犯财产罪"
+          ],
+          "basis": [
+            "outline",
+            "term_scan",
+            "source_inspection"
+          ]
+        }
+      ],
+      "judgments": [
+        {
+          "page_id": "zhang-criminal-law-6e-v2:p0486",
+          "book_id": "zhang-criminal-law-6e-v2",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "zhang-criminal-law-6e-v2:p0486:s012"
+          ],
+          "supporting_sentence_sha256": [
+            "d0413666fe4e2986710a3e66ec82fb453b5da2c71c25afdd8deddb0ce0997944"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "zhang-criminal-law-6e-v2:p0499",
+          "book_id": "zhang-criminal-law-6e-v2",
+          "relevance": 1,
+          "supporting_sentence_ids": [
+            "zhang-criminal-law-6e-v2:p0499:s033"
+          ],
+          "supporting_sentence_sha256": [
+            "40abc88657cf6fcf56b30311a738cfd92872c488dea85c2dbed99c4b2e477d32"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "boundary_comparison"
+        },
+        {
+          "page_id": "zhang-criminal-law-6e-v2:p0493",
+          "book_id": "zhang-criminal-law-6e-v2",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "zhang-criminal-law-6e-v2:p0493:s030"
+          ],
+          "supporting_sentence_sha256": [
+            "8703ad0eb6e472da63d12f76f95d1fa3b973dab93e1dcc9c805067dce31994d0"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "competing_test"
+        },
+        {
+          "page_id": "zhang-criminal-law-6e-v2:p0497",
+          "book_id": "zhang-criminal-law-6e-v2",
+          "relevance": 1,
+          "supporting_sentence_ids": [
+            "zhang-criminal-law-6e-v2:p0497:s006"
+          ],
+          "supporting_sentence_sha256": [
+            "b3f24d1a8ecff7109f7232ab023bda8ac48f3e0e722dd4ad40e1b593d8788e66"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "application"
+        },
+        {
+          "page_id": "zhang-criminal-law-6e-v2:p0502",
+          "book_id": "zhang-criminal-law-6e-v2",
+          "relevance": 1,
+          "supporting_sentence_ids": [
+            "zhang-criminal-law-6e-v2:p0502:s001"
+          ],
+          "supporting_sentence_sha256": [
+            "4df44725f190f62a4f01cd9cd7b01d477f6d5863678da505efd7b4609c1d8384"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "application"
+        },
+        {
+          "page_id": "zhang-criminal-law-6e-v2:p0498",
+          "book_id": "zhang-criminal-law-6e-v2",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "zhang-criminal-law-6e-v2:p0498:s013"
+          ],
+          "supporting_sentence_sha256": [
+            "8e78947ac396cb2d30e9fd10103b2ee906bd1fd035207dd0024a9f21561570c1"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "independent_positive"
+        }
+      ]
+    },
+    {
+      "question_id": "zhang-v2-03-embezzlement-custody",
+      "question": "侵占罪中的代为保管为什么应理解为占有，这如何划定侵占罪与盗窃罪的边界？",
+      "search_query": "侵占罪 保管",
+      "category": "single_book",
+      "coverage_tags": [
+        "china_criminal_special",
+        "侵占罪",
+        "占有"
+      ],
+      "filters": {
+        "book_ids": [
+          "zhang-criminal-law-6e-v2"
+        ],
+        "jurisdictions": [],
+        "subjects": []
+      },
+      "expected_book_ids": [
+        "zhang-criminal-law-6e-v2"
+      ],
+      "candidate_scopes": [
+        {
+          "book_id": "zhang-criminal-law-6e-v2",
+          "pdf_page_range": [
+            439,
+            446
+          ],
+          "chapter_path": [
+            "第四编 罪刑各论",
+            "第二十二章 侵犯财产罪"
+          ],
+          "basis": [
+            "outline",
+            "term_scan",
+            "source_inspection"
+          ]
+        }
+      ],
+      "judgments": [
+        {
+          "page_id": "zhang-criminal-law-6e-v2:p0439",
+          "book_id": "zhang-criminal-law-6e-v2",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "zhang-criminal-law-6e-v2:p0439:s002"
+          ],
+          "supporting_sentence_sha256": [
+            "58fdd110228544b8bd499545fdc7db5efa3e178162f8d16c64c8e1a14e73e731"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "zhang-criminal-law-6e-v2:p0440",
+          "book_id": "zhang-criminal-law-6e-v2",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "zhang-criminal-law-6e-v2:p0440:s003"
+          ],
+          "supporting_sentence_sha256": [
+            "81efe9f4ad36b3354860c15047f4586d3d33bf900beae465f6a361b00408e78d"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "zhang-criminal-law-6e-v2:p0446",
+          "book_id": "zhang-criminal-law-6e-v2",
+          "relevance": 1,
+          "supporting_sentence_ids": [
+            "zhang-criminal-law-6e-v2:p0446:s022"
+          ],
+          "supporting_sentence_sha256": [
+            "c9644f9af62b1f509866c43acda6ebbcf4ab2a1bccbdfbe92e98ce0a7da329bd"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "application"
+        },
+        {
+          "page_id": "zhang-criminal-law-6e-v2:p0441",
+          "book_id": "zhang-criminal-law-6e-v2",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "zhang-criminal-law-6e-v2:p0441:s002"
+          ],
+          "supporting_sentence_sha256": [
+            "c9f290b81b8cbd9825cc30593a173f74fb624a4701709c615c7588be33ab46c8"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "zhang-criminal-law-6e-v2:p0518",
+          "book_id": "zhang-criminal-law-6e-v2",
+          "relevance": 0,
+          "supporting_sentence_ids": [],
+          "supporting_sentence_sha256": [],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "different_offense"
+        },
+        {
+          "page_id": "zhang-criminal-law-6e-v2:p0443",
+          "book_id": "zhang-criminal-law-6e-v2",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "zhang-criminal-law-6e-v2:p0443:s019"
+          ],
+          "supporting_sentence_sha256": [
+            "5df9b9e37941a6060d4ec2fb44c4c7a2fb3deacf1cca73cae281ea09391721a7"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "independent_positive"
+        }
+      ]
+    },
+    {
+      "question_id": "zhang-v2-04-bribery-benefit",
+      "question": "受贿罪中的为他人谋取利益是主观目的还是客观构成要件，其最低要求是什么？",
+      "search_query": "受贿罪 为他人谋取利益",
+      "category": "single_book",
+      "coverage_tags": [
+        "china_criminal_special",
+        "受贿罪",
+        "为他人谋取利益"
+      ],
+      "filters": {
+        "book_ids": [
+          "zhang-criminal-law-6e-v2"
+        ],
+        "jurisdictions": [],
+        "subjects": []
+      },
+      "expected_book_ids": [
+        "zhang-criminal-law-6e-v2"
+      ],
+      "candidate_scopes": [
+        {
+          "book_id": "zhang-criminal-law-6e-v2",
+          "pdf_page_range": [
+            762,
+            788
+          ],
+          "chapter_path": [
+            "第四编 罪刑各论",
+            "第二十五章 贪污贿赂罪"
+          ],
+          "basis": [
+            "outline",
+            "term_scan",
+            "source_inspection"
+          ]
+        }
+      ],
+      "judgments": [
+        {
+          "page_id": "zhang-criminal-law-6e-v2:p0771",
+          "book_id": "zhang-criminal-law-6e-v2",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "zhang-criminal-law-6e-v2:p0771:s016"
+          ],
+          "supporting_sentence_sha256": [
+            "cf9640d110a5eae6839fb6441dc0fd4076397738122228a7b788e22767f93767"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "zhang-criminal-law-6e-v2:p0762",
+          "book_id": "zhang-criminal-law-6e-v2",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "zhang-criminal-law-6e-v2:p0762:s021"
+          ],
+          "supporting_sentence_sha256": [
+            "ccb72970828c5f9458f0ea4e966d9e443f4fede1e9097a43c8e2d5b8718ab13f"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "competing_view"
+        },
+        {
+          "page_id": "zhang-criminal-law-6e-v2:p0772",
+          "book_id": "zhang-criminal-law-6e-v2",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "zhang-criminal-law-6e-v2:p0772:s002"
+          ],
+          "supporting_sentence_sha256": [
+            "bba0343bf3793e495c7371c136568e7d0f65449d78fa4e6966e777db96d8d930"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "zhang-criminal-law-6e-v2:p0788",
+          "book_id": "zhang-criminal-law-6e-v2",
+          "relevance": 1,
+          "supporting_sentence_ids": [
+            "zhang-criminal-law-6e-v2:p0788:s012"
+          ],
+          "supporting_sentence_sha256": [
+            "a8e1d016ffe6c21257bf20a1d6b79d607c888133caecdb1e085d2c393db8d8d4"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "application"
+        },
+        {
+          "page_id": "zhang-criminal-law-6e-v2:p0765",
+          "book_id": "zhang-criminal-law-6e-v2",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "zhang-criminal-law-6e-v2:p0765:s007"
+          ],
+          "supporting_sentence_sha256": [
+            "64ab567e07539b33e9dc07cdee3051d0f9bb06f0552486eac78f34ca7c4b723a"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "zhang-criminal-law-6e-v2:p0773",
+          "book_id": "zhang-criminal-law-6e-v2",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "zhang-criminal-law-6e-v2:p0773:s015"
+          ],
+          "supporting_sentence_sha256": [
+            "eccfa6d1b2e2a4148aea36ac5bf53b394c9ec9cd0e9f2d2baf399420ed329a7c"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "independent_positive"
+        }
+      ]
+    },
+    {
+      "question_id": "zhang-v2-05-homicide-injury-intent",
+      "question": "杀人故意与伤害故意是什么关系，故意杀人罪和故意伤害罪应怎样从客观到主观加以区分？",
+      "search_query": "杀人故意 伤害故意",
+      "category": "single_book",
+      "coverage_tags": [
+        "china_criminal_special",
+        "故意杀人罪",
+        "故意伤害罪"
+      ],
+      "filters": {
+        "book_ids": [
+          "zhang-criminal-law-6e-v2"
+        ],
+        "jurisdictions": [],
+        "subjects": []
+      },
+      "expected_book_ids": [
+        "zhang-criminal-law-6e-v2"
+      ],
+      "candidate_scopes": [
+        {
+          "book_id": "zhang-criminal-law-6e-v2",
+          "pdf_page_range": [
+            298,
+            304
+          ],
+          "chapter_path": [
+            "第四编 罪刑各论",
+            "第二十一章 侵犯公民人身权利、民主权利罪"
+          ],
+          "basis": [
+            "outline",
+            "term_scan",
+            "source_inspection"
+          ]
+        }
+      ],
+      "judgments": [
+        {
+          "page_id": "zhang-criminal-law-6e-v2:p0302",
+          "book_id": "zhang-criminal-law-6e-v2",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "zhang-criminal-law-6e-v2:p0302:s026"
+          ],
+          "supporting_sentence_sha256": [
+            "095e059eed77a516498e8110cf0c309a9745c74ebefb9861ae1fb03250e07901"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "zhang-criminal-law-6e-v2:p0304",
+          "book_id": "zhang-criminal-law-6e-v2",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "zhang-criminal-law-6e-v2:p0304:s034"
+          ],
+          "supporting_sentence_sha256": [
+            "c52d355c11bb577a5481cd09ed2eddcbfd9788bb32f7dcc200523d1c8769fbde"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "boundary_comparison"
+        },
+        {
+          "page_id": "zhang-criminal-law-6e-v2:p0365",
+          "book_id": "zhang-criminal-law-6e-v2",
+          "relevance": 1,
+          "supporting_sentence_ids": [
+            "zhang-criminal-law-6e-v2:p0365:s033"
+          ],
+          "supporting_sentence_sha256": [
+            "bb54dabbbf691d6e6434f55723d1f5fb3e8e606988c0fbbec05419942d8d7fb1"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "application"
+        },
+        {
+          "page_id": "zhang-criminal-law-6e-v2:p0303",
+          "book_id": "zhang-criminal-law-6e-v2",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "zhang-criminal-law-6e-v2:p0303:s008"
+          ],
+          "supporting_sentence_sha256": [
+            "2fced9985929d0ef86b930ddbe970e42ba5e3b24cd0bbf4ba30e9a2f0f5d5a33"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "zhang-criminal-law-6e-v2:p0342",
+          "book_id": "zhang-criminal-law-6e-v2",
+          "relevance": 1,
+          "supporting_sentence_ids": [
+            "zhang-criminal-law-6e-v2:p0342:s003"
+          ],
+          "supporting_sentence_sha256": [
+            "aa3b672db0b48d47464b4300e2ba2eed6df48f563d6bf6129f5d7290205916b8"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "application"
+        },
+        {
+          "page_id": "zhang-criminal-law-6e-v2:p0298",
+          "book_id": "zhang-criminal-law-6e-v2",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "zhang-criminal-law-6e-v2:p0298:s021"
+          ],
+          "supporting_sentence_sha256": [
+            "eb9d48ab3f8af62e01e25efa7f574f0c7c16dd503e95bcabc5cdade33f7de44f"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "independent_positive"
+        }
+      ]
+    },
+    {
+      "question_id": "klunzinger-01-juristic-act-declaration",
+      "question": "德国民法中法律行为与意思表示是什么关系，单方和多方法律行为如何区分？",
+      "search_query": "法律行为 意思表示",
+      "category": "single_book",
+      "coverage_tags": [
+        "german_civil_general",
+        "法律行为",
+        "意思表示"
+      ],
+      "filters": {
+        "book_ids": [
+          "klunzinger-bgb-general-zh"
+        ],
+        "jurisdictions": [],
+        "subjects": []
+      },
+      "expected_book_ids": [
+        "klunzinger-bgb-general-zh"
+      ],
+      "candidate_scopes": [
+        {
+          "book_id": "klunzinger-bgb-general-zh",
+          "pdf_page_range": [
+            122,
+            133
+          ],
+          "chapter_path": [],
+          "basis": [
+            "term_scan",
+            "source_inspection"
+          ]
+        }
+      ],
+      "judgments": [
+        {
+          "page_id": "klunzinger-bgb-general-zh:p0133",
+          "book_id": "klunzinger-bgb-general-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "klunzinger-bgb-general-zh:p0133:s002"
+          ],
+          "supporting_sentence_sha256": [
+            "cfba94cd98c16fe1a023d54e1e287a943686a8b24b4f7bd5a87e09159f8cada6"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "klunzinger-bgb-general-zh:p0124",
+          "book_id": "klunzinger-bgb-general-zh",
+          "relevance": 1,
+          "supporting_sentence_ids": [
+            "klunzinger-bgb-general-zh:p0124:s007"
+          ],
+          "supporting_sentence_sha256": [
+            "23ed392ad09c6d41f05f1b3f4879282872ee7160884dddf0b612223591d62221"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "supporting_context"
+        },
+        {
+          "page_id": "klunzinger-bgb-general-zh:p0132",
+          "book_id": "klunzinger-bgb-general-zh",
+          "relevance": 1,
+          "supporting_sentence_ids": [
+            "klunzinger-bgb-general-zh:p0132:s005"
+          ],
+          "supporting_sentence_sha256": [
+            "7a9d50ef2deb97f0fc5cf4195ebfbbf11d6ad2f7bb528a934ad4cd2ac420de6e"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "boundary_context"
+        },
+        {
+          "page_id": "klunzinger-bgb-general-zh:p0131",
+          "book_id": "klunzinger-bgb-general-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "klunzinger-bgb-general-zh:p0131:s004"
+          ],
+          "supporting_sentence_sha256": [
+            "05b0a71c38b2dda4006155706d2a2e447ce3709d496e917a2853a2d4cd6c397b"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "klunzinger-bgb-general-zh:p0199",
+          "book_id": "klunzinger-bgb-general-zh",
+          "relevance": 1,
+          "supporting_sentence_ids": [
+            "klunzinger-bgb-general-zh:p0199:s001"
+          ],
+          "supporting_sentence_sha256": [
+            "28b4f92a8f8e3c57b2c3b0eb65b44877c05a473ce41cd61609fb3698d1d70ff9"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "boundary_context"
+        },
+        {
+          "page_id": "klunzinger-bgb-general-zh:p0122",
+          "book_id": "klunzinger-bgb-general-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "klunzinger-bgb-general-zh:p0122:s004"
+          ],
+          "supporting_sentence_sha256": [
+            "b6ddb29876b52250d1a7b0390555386783e3d1687d34c15b85ed286a70f403ed"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "independent_positive"
+        }
+      ]
+    },
+    {
+      "question_id": "klunzinger-02-minor-capacity",
+      "question": "德国民法中限制行为能力的未成年人可以在什么条件下独立实施有效法律行为？",
+      "search_query": "限制行为能力 未成年人",
+      "category": "single_book",
+      "coverage_tags": [
+        "german_civil_general",
+        "限制行为能力",
+        "未成年人"
+      ],
+      "filters": {
+        "book_ids": [
+          "klunzinger-bgb-general-zh"
+        ],
+        "jurisdictions": [],
+        "subjects": []
+      },
+      "expected_book_ids": [
+        "klunzinger-bgb-general-zh"
+      ],
+      "candidate_scopes": [
+        {
+          "book_id": "klunzinger-bgb-general-zh",
+          "pdf_page_range": [
+            178,
+            186
+          ],
+          "chapter_path": [],
+          "basis": [
+            "term_scan",
+            "source_inspection"
+          ]
+        }
+      ],
+      "judgments": [
+        {
+          "page_id": "klunzinger-bgb-general-zh:p0180",
+          "book_id": "klunzinger-bgb-general-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "klunzinger-bgb-general-zh:p0180:s006"
+          ],
+          "supporting_sentence_sha256": [
+            "6459576d9385016ec0506107f5b18ea68be9a2687803d6c3a16fc74d2f834571"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "klunzinger-bgb-general-zh:p0183",
+          "book_id": "klunzinger-bgb-general-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "klunzinger-bgb-general-zh:p0183:s004"
+          ],
+          "supporting_sentence_sha256": [
+            "ef8123bdbe57964dd209cad31f307a6b3aa45989048c22a1e8c0e4db2098028e"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "application"
+        },
+        {
+          "page_id": "klunzinger-bgb-general-zh:p0272",
+          "book_id": "klunzinger-bgb-general-zh",
+          "relevance": 1,
+          "supporting_sentence_ids": [
+            "klunzinger-bgb-general-zh:p0272:s011"
+          ],
+          "supporting_sentence_sha256": [
+            "7539c1c3914aa3cf0012d42713363ec567f0d252c335e711633e31ebaea3cba1"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "application"
+        },
+        {
+          "page_id": "klunzinger-bgb-general-zh:p0277",
+          "book_id": "klunzinger-bgb-general-zh",
+          "relevance": 1,
+          "supporting_sentence_ids": [
+            "klunzinger-bgb-general-zh:p0277:s007"
+          ],
+          "supporting_sentence_sha256": [
+            "1e314cdaade9491e43123556c3b832cb2e01626463315cf96cc00ba8539455db"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "application"
+        },
+        {
+          "page_id": "klunzinger-bgb-general-zh:p0184",
+          "book_id": "klunzinger-bgb-general-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "klunzinger-bgb-general-zh:p0184:s015"
+          ],
+          "supporting_sentence_sha256": [
+            "2a56d5fa2727422f13fa2fc025d085d6d918f20dc3e7bf4f7d77229899d0e303"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "klunzinger-bgb-general-zh:p0182",
+          "book_id": "klunzinger-bgb-general-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "klunzinger-bgb-general-zh:p0182:s004"
+          ],
+          "supporting_sentence_sha256": [
+            "d75aef9b65d30d78044e8073334d4ac2f3752b641ea54aaded4888feb8bcd8b8"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "independent_positive"
+        }
+      ]
+    },
+    {
+      "question_id": "klunzinger-03-unauthorized-agency",
+      "question": "无权代理人缔结的合同效力如何取决于被代理人追认，拒绝追认后由谁承担责任？",
+      "search_query": "无权代理 追认",
+      "category": "single_book",
+      "coverage_tags": [
+        "german_civil_general",
+        "无权代理",
+        "追认"
+      ],
+      "filters": {
+        "book_ids": [
+          "klunzinger-bgb-general-zh"
+        ],
+        "jurisdictions": [],
+        "subjects": []
+      },
+      "expected_book_ids": [
+        "klunzinger-bgb-general-zh"
+      ],
+      "candidate_scopes": [
+        {
+          "book_id": "klunzinger-bgb-general-zh",
+          "pdf_page_range": [
+            270,
+            272
+          ],
+          "chapter_path": [],
+          "basis": [
+            "term_scan",
+            "source_inspection"
+          ]
+        },
+        {
+          "book_id": "klunzinger-bgb-general-zh",
+          "pdf_page_range": [
+            200,
+            200
+          ],
+          "chapter_path": [],
+          "basis": [
+            "term_scan",
+            "source_inspection"
+          ]
+        }
+      ],
+      "judgments": [
+        {
+          "page_id": "klunzinger-bgb-general-zh:p0270",
+          "book_id": "klunzinger-bgb-general-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "klunzinger-bgb-general-zh:p0270:s008"
+          ],
+          "supporting_sentence_sha256": [
+            "1124c5bf56b89b5e764bc5800357d963df8a50581840c7c3bb22ff916f1b2ffa"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "klunzinger-bgb-general-zh:p0271",
+          "book_id": "klunzinger-bgb-general-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "klunzinger-bgb-general-zh:p0271:s010"
+          ],
+          "supporting_sentence_sha256": [
+            "d7fbc7bb3b3d6e7981784b868658992d91c8ec2ae754cbccbf4df443c932ea32"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "klunzinger-bgb-general-zh:p0272",
+          "book_id": "klunzinger-bgb-general-zh",
+          "relevance": 0,
+          "supporting_sentence_ids": [],
+          "supporting_sentence_sha256": [],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "review_questions_only"
+        },
+        {
+          "page_id": "klunzinger-bgb-general-zh:p0246",
+          "book_id": "klunzinger-bgb-general-zh",
+          "relevance": 1,
+          "supporting_sentence_ids": [
+            "klunzinger-bgb-general-zh:p0246:s007"
+          ],
+          "supporting_sentence_sha256": [
+            "689ad21e3d0d1a1a5f1b6d3ff92cdf59f045f15ff00a2827acaba7120d288341"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "supporting_context"
+        },
+        {
+          "page_id": "klunzinger-bgb-general-zh:p0262",
+          "book_id": "klunzinger-bgb-general-zh",
+          "relevance": 1,
+          "supporting_sentence_ids": [
+            "klunzinger-bgb-general-zh:p0262:s007"
+          ],
+          "supporting_sentence_sha256": [
+            "9c3baef3917d227f67e97d7ef57549903adb8fa2d2435fe0b9bed6126d29f499"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "supporting_context"
+        },
+        {
+          "page_id": "klunzinger-bgb-general-zh:p0200",
+          "book_id": "klunzinger-bgb-general-zh",
+          "relevance": 1,
+          "supporting_sentence_ids": [
+            "klunzinger-bgb-general-zh:p0200:s002"
+          ],
+          "supporting_sentence_sha256": [
+            "63abb42f5f16962e7556863e21b8235cc6d7d00feb436b1a3da48f1f4a299542"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "independent_positive"
+        }
+      ]
+    },
+    {
+      "question_id": "klunzinger-04-limitation-claim",
+      "question": "消灭时效完成对请求权产生什么影响，期间的起算、停止与重新起算如何处理？",
+      "search_query": "消灭时效 请求权",
+      "category": "single_book",
+      "coverage_tags": [
+        "german_civil_general",
+        "消灭时效",
+        "请求权"
+      ],
+      "filters": {
+        "book_ids": [
+          "klunzinger-bgb-general-zh"
+        ],
+        "jurisdictions": [],
+        "subjects": []
+      },
+      "expected_book_ids": [
+        "klunzinger-bgb-general-zh"
+      ],
+      "candidate_scopes": [
+        {
+          "book_id": "klunzinger-bgb-general-zh",
+          "pdf_page_range": [
+            94,
+            101
+          ],
+          "chapter_path": [],
+          "basis": [
+            "term_scan",
+            "source_inspection"
+          ]
+        }
+      ],
+      "judgments": [
+        {
+          "page_id": "klunzinger-bgb-general-zh:p0095",
+          "book_id": "klunzinger-bgb-general-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "klunzinger-bgb-general-zh:p0095:s006"
+          ],
+          "supporting_sentence_sha256": [
+            "219d0f22783167033f27fd5b02884a48b43a3b19b9304b55add10f513fc26c31"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "klunzinger-bgb-general-zh:p0097",
+          "book_id": "klunzinger-bgb-general-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "klunzinger-bgb-general-zh:p0097:s004"
+          ],
+          "supporting_sentence_sha256": [
+            "053ca0b30c5083cf01a6ea434306d902a332774ca33fe6ff275eebbf851459ab"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "klunzinger-bgb-general-zh:p0064",
+          "book_id": "klunzinger-bgb-general-zh",
+          "relevance": 0,
+          "supporting_sentence_ids": [],
+          "supporting_sentence_sha256": [],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "incidental_term"
+        },
+        {
+          "page_id": "klunzinger-bgb-general-zh:p0100",
+          "book_id": "klunzinger-bgb-general-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "klunzinger-bgb-general-zh:p0100:s003"
+          ],
+          "supporting_sentence_sha256": [
+            "3422cf2bc8ebbe0269899c4310c83a5b452997811a78b66b6bbc3e52c2711cb3"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "klunzinger-bgb-general-zh:p0099",
+          "book_id": "klunzinger-bgb-general-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "klunzinger-bgb-general-zh:p0099:s007"
+          ],
+          "supporting_sentence_sha256": [
+            "b13fc5c82cf5094e994d3c94cb539e8e49597099d8f04ae2a34a1b7a57722d5c"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "klunzinger-bgb-general-zh:p0098",
+          "book_id": "klunzinger-bgb-general-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "klunzinger-bgb-general-zh:p0098:s015"
+          ],
+          "supporting_sentence_sha256": [
+            "61101da5b6c47bb4ee2a262a9a92bf084fcacac2aff6b00b5fd500a7932f7968"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "independent_positive"
+        }
+      ]
+    },
+    {
+      "question_id": "klunzinger-05-mistake-avoidance",
+      "question": "哪些意思表示错误能够产生撤销权，内容错误、表示错误和性质错误如何区分？",
+      "search_query": "错误 撤销权 意思瑕疵",
+      "category": "single_book",
+      "coverage_tags": [
+        "german_civil_general",
+        "意思瑕疵",
+        "撤销权"
+      ],
+      "filters": {
+        "book_ids": [
+          "klunzinger-bgb-general-zh"
+        ],
+        "jurisdictions": [],
+        "subjects": []
+      },
+      "expected_book_ids": [
+        "klunzinger-bgb-general-zh"
+      ],
+      "candidate_scopes": [
+        {
+          "book_id": "klunzinger-bgb-general-zh",
+          "pdf_page_range": [
+            214,
+            228
+          ],
+          "chapter_path": [],
+          "basis": [
+            "term_scan",
+            "source_inspection"
+          ]
+        }
+      ],
+      "judgments": [
+        {
+          "page_id": "klunzinger-bgb-general-zh:p0226",
+          "book_id": "klunzinger-bgb-general-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "klunzinger-bgb-general-zh:p0226:s004"
+          ],
+          "supporting_sentence_sha256": [
+            "8256bdfa24a73fd19c9cacf8d9963a45c5ede22c216d8329db85a033a336d7cd"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "klunzinger-bgb-general-zh:p0225",
+          "book_id": "klunzinger-bgb-general-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "klunzinger-bgb-general-zh:p0225:s011"
+          ],
+          "supporting_sentence_sha256": [
+            "228774b8913e416870c686154b75c0925fe16450cc3f9cc762de28d7dfc0ec4f"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "klunzinger-bgb-general-zh:p0214",
+          "book_id": "klunzinger-bgb-general-zh",
+          "relevance": 1,
+          "supporting_sentence_ids": [
+            "klunzinger-bgb-general-zh:p0214:s009"
+          ],
+          "supporting_sentence_sha256": [
+            "cc4b6921dc32f09a41f6b140726cbb57469487bad2ec2ba1cc58136d1c814a68"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "supporting_context"
+        },
+        {
+          "page_id": "klunzinger-bgb-general-zh:p0216",
+          "book_id": "klunzinger-bgb-general-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "klunzinger-bgb-general-zh:p0216:s006"
+          ],
+          "supporting_sentence_sha256": [
+            "a43df16dcacdb9dae226b72d41f0f1891cfa56a4a76c530dceb2e3563a9f8e33"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "klunzinger-bgb-general-zh:p0221",
+          "book_id": "klunzinger-bgb-general-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "klunzinger-bgb-general-zh:p0221:s005"
+          ],
+          "supporting_sentence_sha256": [
+            "a59f65c65ef1074cab6cc646c667b550f6e550abeefeea928635ab27210c4575"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "klunzinger-bgb-general-zh:p0222",
+          "book_id": "klunzinger-bgb-general-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "klunzinger-bgb-general-zh:p0222:s011"
+          ],
+          "supporting_sentence_sha256": [
+            "56fa3034b85cd417c964074c01461787b8ed67b9b446586a66cac246c80f1357"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "independent_positive"
+        }
+      ]
+    },
+    {
+      "question_id": "dworkin-01-semantic-sting",
+      "question": "德沃金所谓语义之刺是什么，他为何认为它误导了关于法律概念的争论？",
+      "search_query": "语义之刺",
+      "category": "single_book",
+      "coverage_tags": [
+        "dworkin_interpretation",
+        "语义之刺",
+        "解释性概念"
+      ],
+      "filters": {
+        "book_ids": [
+          "dworkin-laws-empire-zh"
+        ],
+        "jurisdictions": [],
+        "subjects": []
+      },
+      "expected_book_ids": [
+        "dworkin-laws-empire-zh"
+      ],
+      "candidate_scopes": [
+        {
+          "book_id": "dworkin-laws-empire-zh",
+          "pdf_page_range": [
+            46,
+            46
+          ],
+          "chapter_path": [
+            "第二章  解释性概念",
+            "语义之刺"
+          ],
+          "basis": [
+            "outline",
+            "term_scan",
+            "source_inspection"
+          ]
+        },
+        {
+          "book_id": "dworkin-laws-empire-zh",
+          "pdf_page_range": [
+            82,
+            86
+          ],
+          "chapter_path": [
+            "第三章  再论法理学"
+          ],
+          "basis": [
+            "term_scan",
+            "source_inspection"
+          ]
+        }
+      ],
+      "judgments": [
+        {
+          "page_id": "dworkin-laws-empire-zh:p0046",
+          "book_id": "dworkin-laws-empire-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "dworkin-laws-empire-zh:p0046:s001"
+          ],
+          "supporting_sentence_sha256": [
+            "511b4f627461b94e070ea18dc56470da2c509f08b7a328dbc49c1ee485aa7539"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "dworkin-laws-empire-zh:p0082",
+          "book_id": "dworkin-laws-empire-zh",
+          "relevance": 1,
+          "supporting_sentence_ids": [
+            "dworkin-laws-empire-zh:p0082:s001"
+          ],
+          "supporting_sentence_sha256": [
+            "3721f6872935fe9e7c58eef82b3e52db27f1b19c674107e71931a51820261879"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "later_application"
+        },
+        {
+          "page_id": "dworkin-laws-empire-zh:p0294",
+          "book_id": "dworkin-laws-empire-zh",
+          "relevance": 1,
+          "supporting_sentence_ids": [
+            "dworkin-laws-empire-zh:p0294:s005"
+          ],
+          "supporting_sentence_sha256": [
+            "843044b5c35dfd7863b3e73ffaf7cdfeee09fa96bf20309f6f7abe164f4d9dde"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "later_application"
+        },
+        {
+          "page_id": "dworkin-laws-empire-zh:p0086",
+          "book_id": "dworkin-laws-empire-zh",
+          "relevance": 1,
+          "supporting_sentence_ids": [
+            "dworkin-laws-empire-zh:p0086:s006"
+          ],
+          "supporting_sentence_sha256": [
+            "68fe1e45389cfbb110e6617b78e439c005e8211fc01d5d9c4f9277f3c9b037b2"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "later_application"
+        },
+        {
+          "page_id": "dworkin-laws-empire-zh:p0065",
+          "book_id": "dworkin-laws-empire-zh",
+          "relevance": 1,
+          "supporting_sentence_ids": [
+            "dworkin-laws-empire-zh:p0065:s016"
+          ],
+          "supporting_sentence_sha256": [
+            "77dbeac1e9918714bd3610f0f703d3a249acc5e919231bd47cc83204a772b888"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "supporting_context"
+        },
+        {
+          "page_id": "dworkin-laws-empire-zh:p0085",
+          "book_id": "dworkin-laws-empire-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "dworkin-laws-empire-zh:p0085:s011"
+          ],
+          "supporting_sentence_sha256": [
+            "a58ef4f6ab26046d5908317b16af4b66442fb795ab48c17dba44d8d226d381de"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "independent_positive"
+        }
+      ]
+    },
+    {
+      "question_id": "dworkin-02-interpretive-stages",
+      "question": "德沃金所说的解释活动包含哪些阶段，前解释阶段、解释阶段和后解释阶段各做什么？",
+      "search_query": "解释 阶段 前解释",
+      "category": "single_book",
+      "coverage_tags": [
+        "dworkin_interpretation",
+        "解释阶段",
+        "前解释"
+      ],
+      "filters": {
+        "book_ids": [
+          "dworkin-laws-empire-zh"
+        ],
+        "jurisdictions": [],
+        "subjects": []
+      },
+      "expected_book_ids": [
+        "dworkin-laws-empire-zh"
+      ],
+      "candidate_scopes": [
+        {
+          "book_id": "dworkin-laws-empire-zh",
+          "pdf_page_range": [
+            63,
+            64
+          ],
+          "chapter_path": [
+            "第二章  解释性概念",
+            "解释的阶段"
+          ],
+          "basis": [
+            "outline",
+            "term_scan",
+            "source_inspection"
+          ]
+        },
+        {
+          "book_id": "dworkin-laws-empire-zh",
+          "pdf_page_range": [
+            92,
+            92
+          ],
+          "chapter_path": [
+            "第三章  再论法理学"
+          ],
+          "basis": [
+            "term_scan",
+            "source_inspection"
+          ]
+        }
+      ],
+      "judgments": [
+        {
+          "page_id": "dworkin-laws-empire-zh:p0063",
+          "book_id": "dworkin-laws-empire-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "dworkin-laws-empire-zh:p0063:s015"
+          ],
+          "supporting_sentence_sha256": [
+            "10cb64e316f5d6c69c1a156890218411877aea11fe39970cc8c616845c5b9606"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "dworkin-laws-empire-zh:p0064",
+          "book_id": "dworkin-laws-empire-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "dworkin-laws-empire-zh:p0064:s007"
+          ],
+          "supporting_sentence_sha256": [
+            "efa9be3d31ae9674fc45846cdc6797eadc28eec1315c13393575295c95ed887c"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "dworkin-laws-empire-zh:p0065",
+          "book_id": "dworkin-laws-empire-zh",
+          "relevance": 1,
+          "supporting_sentence_ids": [
+            "dworkin-laws-empire-zh:p0065:s003"
+          ],
+          "supporting_sentence_sha256": [
+            "3d86249f7312924e77f61303decd6982813e5018c00d04fffa2e611f2c334aa5"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "application"
+        },
+        {
+          "page_id": "dworkin-laws-empire-zh:p0095",
+          "book_id": "dworkin-laws-empire-zh",
+          "relevance": 1,
+          "supporting_sentence_ids": [
+            "dworkin-laws-empire-zh:p0095:s003"
+          ],
+          "supporting_sentence_sha256": [
+            "a3b5e08bb20d2a33bfb6495eae5213c45ef2a25e74849f104dd85c61a838c9b5"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "later_application"
+        },
+        {
+          "page_id": "dworkin-laws-empire-zh:p0071",
+          "book_id": "dworkin-laws-empire-zh",
+          "relevance": 1,
+          "supporting_sentence_ids": [
+            "dworkin-laws-empire-zh:p0071:s024"
+          ],
+          "supporting_sentence_sha256": [
+            "4a638ef9ab7d94172dde12fa34b494093b92236a15eadad99499dcaf3c22305f"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "supporting_note"
+        },
+        {
+          "page_id": "dworkin-laws-empire-zh:p0092",
+          "book_id": "dworkin-laws-empire-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "dworkin-laws-empire-zh:p0092:s004"
+          ],
+          "supporting_sentence_sha256": [
+            "488b54259896d616d9b8a1307c8d1dafc112a722994161dbe0c62cdb829440af"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "independent_positive"
+        }
+      ]
+    },
+    {
+      "question_id": "dworkin-03-law-as-integrity",
+      "question": "法律中的整全性如何要求法官确认法律权利义务，并把法律实践解释为融贯整体？",
+      "search_query": "法律 整全性",
+      "category": "single_book",
+      "coverage_tags": [
+        "dworkin_interpretation",
+        "法律中的整全性",
+        "融贯性"
+      ],
+      "filters": {
+        "book_ids": [
+          "dworkin-laws-empire-zh"
+        ],
+        "jurisdictions": [],
+        "subjects": []
+      },
+      "expected_book_ids": [
+        "dworkin-laws-empire-zh"
+      ],
+      "candidate_scopes": [
+        {
+          "book_id": "dworkin-laws-empire-zh",
+          "pdf_page_range": [
+            150,
+            188
+          ],
+          "chapter_path": [
+            "第六章  整全性"
+          ],
+          "basis": [
+            "outline",
+            "term_scan",
+            "source_inspection"
+          ]
+        },
+        {
+          "book_id": "dworkin-laws-empire-zh",
+          "pdf_page_range": [
+            188,
+            217
+          ],
+          "chapter_path": [
+            "第七章  法律中的整全性"
+          ],
+          "basis": [
+            "outline",
+            "term_scan",
+            "source_inspection"
+          ]
+        }
+      ],
+      "judgments": [
+        {
+          "page_id": "dworkin-laws-empire-zh:p0150",
+          "book_id": "dworkin-laws-empire-zh",
+          "relevance": 1,
+          "supporting_sentence_ids": [
+            "dworkin-laws-empire-zh:p0150:s009"
+          ],
+          "supporting_sentence_sha256": [
+            "368ca6e7979c3b10b02e12698c7063216254244ccae87d30c8131f12adf669f1"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "supporting_context"
+        },
+        {
+          "page_id": "dworkin-laws-empire-zh:p0217",
+          "book_id": "dworkin-laws-empire-zh",
+          "relevance": 1,
+          "supporting_sentence_ids": [
+            "dworkin-laws-empire-zh:p0217:s002"
+          ],
+          "supporting_sentence_sha256": [
+            "beb39c7b18608aefa6403fa96b5ab229e41289c962237cac9029ccdff58e4c37"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "objection"
+        },
+        {
+          "page_id": "dworkin-laws-empire-zh:p0181",
+          "book_id": "dworkin-laws-empire-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "dworkin-laws-empire-zh:p0181:s014"
+          ],
+          "supporting_sentence_sha256": [
+            "015f20f410deae5e9ba9925f7d5d6aa26a42ba7628d8016894337446d259e80b"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "dworkin-laws-empire-zh:p0160",
+          "book_id": "dworkin-laws-empire-zh",
+          "relevance": 1,
+          "supporting_sentence_ids": [
+            "dworkin-laws-empire-zh:p0160:s017"
+          ],
+          "supporting_sentence_sha256": [
+            "948b52491e66f346072287177235c2ee6580dfee5353d329abd5ae0159556abe"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "supporting_context"
+        },
+        {
+          "page_id": "dworkin-laws-empire-zh:p0188",
+          "book_id": "dworkin-laws-empire-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "dworkin-laws-empire-zh:p0188:s007"
+          ],
+          "supporting_sentence_sha256": [
+            "133b2b7b7eb2b5050a51ea630af73553f2294560f734b3c1759161333bb88880"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "dworkin-laws-empire-zh:p0202",
+          "book_id": "dworkin-laws-empire-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "dworkin-laws-empire-zh:p0202:s002"
+          ],
+          "supporting_sentence_sha256": [
+            "c44486837211522cb24bbf62d91c095b63f3b0e290d43ec8a63d46789e641d1f"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "independent_positive"
+        }
+      ]
+    },
+    {
+      "question_id": "dworkin-04-chain-novel",
+      "question": "连环小说比喻如何说明法官既受既有判例约束又要继续发展法律？",
+      "search_query": "连环小说 法律",
+      "category": "single_book",
+      "coverage_tags": [
+        "dworkin_interpretation",
+        "连环小说",
+        "判例解释"
+      ],
+      "filters": {
+        "book_ids": [
+          "dworkin-laws-empire-zh"
+        ],
+        "jurisdictions": [],
+        "subjects": []
+      },
+      "expected_book_ids": [
+        "dworkin-laws-empire-zh"
+      ],
+      "candidate_scopes": [
+        {
+          "book_id": "dworkin-laws-empire-zh",
+          "pdf_page_range": [
+            190,
+            211
+          ],
+          "chapter_path": [
+            "第七章  法律中的整全性",
+            "法律的连环"
+          ],
+          "basis": [
+            "outline",
+            "term_scan",
+            "source_inspection"
+          ]
+        }
+      ],
+      "judgments": [
+        {
+          "page_id": "dworkin-laws-empire-zh:p0190",
+          "book_id": "dworkin-laws-empire-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "dworkin-laws-empire-zh:p0190:s021"
+          ],
+          "supporting_sentence_sha256": [
+            "1cd0c212d19125743600e05f3277b58405e404b33db13a2c7489d6293d1486df"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "dworkin-laws-empire-zh:p0356",
+          "book_id": "dworkin-laws-empire-zh",
+          "relevance": 0,
+          "supporting_sentence_ids": [],
+          "supporting_sentence_sha256": [],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "index_only"
+        },
+        {
+          "page_id": "dworkin-laws-empire-zh:p0211",
+          "book_id": "dworkin-laws-empire-zh",
+          "relevance": 1,
+          "supporting_sentence_ids": [
+            "dworkin-laws-empire-zh:p0211:s016"
+          ],
+          "supporting_sentence_sha256": [
+            "f7d1a5a00f08b22abe567be73854f6aa3e6f4d677774cd33a3a1461bd4b213d5"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "later_application"
+        },
+        {
+          "page_id": "dworkin-laws-empire-zh:p0198",
+          "book_id": "dworkin-laws-empire-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "dworkin-laws-empire-zh:p0198:s010"
+          ],
+          "supporting_sentence_sha256": [
+            "640158a01ddf527691138705b6fa270debf0eca97804aaefcda72f5b615590ad"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "dworkin-laws-empire-zh:p0199",
+          "book_id": "dworkin-laws-empire-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "dworkin-laws-empire-zh:p0199:s003"
+          ],
+          "supporting_sentence_sha256": [
+            "0f67a71717bfe548d6a9f337dc2b30d10ab9e244e6f85bd5f081a54ac0cd5457"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "dworkin-laws-empire-zh:p0191",
+          "book_id": "dworkin-laws-empire-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "dworkin-laws-empire-zh:p0191:s010"
+          ],
+          "supporting_sentence_sha256": [
+            "188b40a2d6d03fb9b31c7832a670f70b38dded7459679da213bf8aa56f7f2d64"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "independent_positive"
+        }
+      ]
+    },
+    {
+      "question_id": "dworkin-05-hercules-method",
+      "question": "赫拉克勒斯法官如何解释普通法、制定法与宪法，最佳解释在其方法中起什么作用？",
+      "search_query": "赫拉克勒斯 解释",
+      "category": "single_book",
+      "coverage_tags": [
+        "dworkin_interpretation",
+        "赫拉克勒斯",
+        "最佳解释"
+      ],
+      "filters": {
+        "book_ids": [
+          "dworkin-laws-empire-zh"
+        ],
+        "jurisdictions": [],
+        "subjects": []
+      },
+      "expected_book_ids": [
+        "dworkin-laws-empire-zh"
+      ],
+      "candidate_scopes": [
+        {
+          "book_id": "dworkin-laws-empire-zh",
+          "pdf_page_range": [
+            275,
+            278
+          ],
+          "chapter_path": [
+            "第九章  制定法",
+            "赫拉克勒斯的方法"
+          ],
+          "basis": [
+            "outline",
+            "term_scan",
+            "source_inspection"
+          ]
+        },
+        {
+          "book_id": "dworkin-laws-empire-zh",
+          "pdf_page_range": [
+            308,
+            322
+          ],
+          "chapter_path": [
+            "第十章  宪法"
+          ],
+          "basis": [
+            "outline",
+            "term_scan",
+            "source_inspection"
+          ]
+        }
+      ],
+      "judgments": [
+        {
+          "page_id": "dworkin-laws-empire-zh:p0217",
+          "book_id": "dworkin-laws-empire-zh",
+          "relevance": 1,
+          "supporting_sentence_ids": [
+            "dworkin-laws-empire-zh:p0217:s021"
+          ],
+          "supporting_sentence_sha256": [
+            "225007d42d84edbeabe1ca8b0369d4c1b2c87a9ffd936a49f162862948ef28a5"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "objection"
+        },
+        {
+          "page_id": "dworkin-laws-empire-zh:p0275",
+          "book_id": "dworkin-laws-empire-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "dworkin-laws-empire-zh:p0275:s004"
+          ],
+          "supporting_sentence_sha256": [
+            "e5383d5ae2c146ffdd89f21da19a1358540f3ae24a08cada3f4ba13980572613"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-10-25T08:33:48Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "dworkin-laws-empire-zh:p0276",
+          "book_id": "dworkin-laws-empire-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "dworkin-laws-empire-zh:p0276:s005"
+          ],
+          "supporting_sentence_sha256": [
+            "56a7f5c9fe00b9359db3ab806fe722e76b58e1ac17e413cf55269490936db05b"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "dworkin-laws-empire-zh:p0278",
+          "book_id": "dworkin-laws-empire-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "dworkin-laws-empire-zh:p0278:s011"
+          ],
+          "supporting_sentence_sha256": [
+            "64b210d56b33f8e327bfe2ad62762405e0ca51bdaec1cc68205b4ee9dc0a8a99"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "dworkin-laws-empire-zh:p0308",
+          "book_id": "dworkin-laws-empire-zh",
+          "relevance": 1,
+          "supporting_sentence_ids": [
+            "dworkin-laws-empire-zh:p0308:s010"
+          ],
+          "supporting_sentence_sha256": [
+            "bcb4f970def2cd2fc7437cf2a9fe93970ce1322dea95e3ff1cb4ba7b25c17af3"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "application"
+        },
+        {
+          "page_id": "dworkin-laws-empire-zh:p0309",
+          "book_id": "dworkin-laws-empire-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "dworkin-laws-empire-zh:p0309:s009"
+          ],
+          "supporting_sentence_sha256": [
+            "052385e855dd32385f1ec192647ddeb2d5bd7ac4090b8f1c7d3466e85241b13c"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "independent_positive"
+        },
+        {
+          "page_id": "dworkin-laws-empire-zh:p0322",
+          "book_id": "dworkin-laws-empire-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "dworkin-laws-empire-zh:p0322:s007"
+          ],
+          "supporting_sentence_sha256": [
+            "30dbfc62081907694ff888b6fc7abb622ec78f486d1aa7c462c1143aa12d6471"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        }
+      ]
+    },
+    {
+      "question_id": "rousseau-01-general-will-interest",
+      "question": "卢梭如何区分公意与众意，为什么共同利益而非票数使意志成为公意？",
+      "search_query": "公意 共同利益",
+      "category": "single_book",
+      "coverage_tags": [
+        "rousseau_sovereignty_law",
+        "公意",
+        "共同利益"
+      ],
+      "filters": {
+        "book_ids": [
+          "rousseau-social-contract-zh"
+        ],
+        "jurisdictions": [],
+        "subjects": []
+      },
+      "expected_book_ids": [
+        "rousseau-social-contract-zh"
+      ],
+      "candidate_scopes": [
+        {
+          "book_id": "rousseau-social-contract-zh",
+          "pdf_page_range": [
+            27,
+            29
+          ],
+          "chapter_path": [
+            "第二卷",
+            "第三章 公意是否可能错误"
+          ],
+          "basis": [
+            "outline",
+            "term_scan",
+            "source_inspection"
+          ]
+        },
+        {
+          "book_id": "rousseau-social-contract-zh",
+          "pdf_page_range": [
+            100,
+            100
+          ],
+          "chapter_path": [
+            "第四卷",
+            "第一章 论公意是不可摧毁的"
+          ],
+          "basis": [
+            "outline",
+            "source_inspection"
+          ]
+        }
+      ],
+      "judgments": [
+        {
+          "page_id": "rousseau-social-contract-zh:p0087",
+          "book_id": "rousseau-social-contract-zh",
+          "relevance": 1,
+          "supporting_sentence_ids": [
+            "rousseau-social-contract-zh:p0087:s002"
+          ],
+          "supporting_sentence_sha256": [
+            "db10e90580a166e444af94f3f0eea76b76a48c1ea9a1814e8705a1da72690743"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "supporting_note"
+        },
+        {
+          "page_id": "rousseau-social-contract-zh:p0046",
+          "book_id": "rousseau-social-contract-zh",
+          "relevance": 1,
+          "supporting_sentence_ids": [
+            "rousseau-social-contract-zh:p0046:s012"
+          ],
+          "supporting_sentence_sha256": [
+            "5c2bb80b61f5e77db410830e3c39009835e0063a1b851472b9021c104d81e4c4"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "supporting_note"
+        },
+        {
+          "page_id": "rousseau-social-contract-zh:p0029",
+          "book_id": "rousseau-social-contract-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "rousseau-social-contract-zh:p0029:s014"
+          ],
+          "supporting_sentence_sha256": [
+            "0f282b37b97715b1f6ca2041a710d0c013bc0106524676de2b28677bae38db0d"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "rousseau-social-contract-zh:p0138",
+          "book_id": "rousseau-social-contract-zh",
+          "relevance": 0,
+          "supporting_sentence_ids": [],
+          "supporting_sentence_sha256": [],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "gloss_only"
+        },
+        {
+          "page_id": "rousseau-social-contract-zh:p0027",
+          "book_id": "rousseau-social-contract-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "rousseau-social-contract-zh:p0027:s007"
+          ],
+          "supporting_sentence_sha256": [
+            "7f59d75cf8799c94b6d32047fc73c0a558a750702d525c0960c2a53d041a5cdd"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "rousseau-social-contract-zh:p0100",
+          "book_id": "rousseau-social-contract-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "rousseau-social-contract-zh:p0100:s001"
+          ],
+          "supporting_sentence_sha256": [
+            "5c425c80d65d7e3122f1fe96241305ab7d4509ccf2d4985995e68cebaa137e6e"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "independent_positive"
+        }
+      ]
+    },
+    {
+      "question_id": "rousseau-02-sovereignty-inalienable",
+      "question": "卢梭为什么认为主权不可转让且不可分割，这一结论与公意有什么关系？",
+      "search_query": "主权 不可转让 不可分割",
+      "category": "single_book",
+      "coverage_tags": [
+        "rousseau_sovereignty_law",
+        "主权",
+        "不可转让",
+        "不可分割"
+      ],
+      "filters": {
+        "book_ids": [
+          "rousseau-social-contract-zh"
+        ],
+        "jurisdictions": [],
+        "subjects": []
+      },
+      "expected_book_ids": [
+        "rousseau-social-contract-zh"
+      ],
+      "candidate_scopes": [
+        {
+          "book_id": "rousseau-social-contract-zh",
+          "pdf_page_range": [
+            25,
+            26
+          ],
+          "chapter_path": [
+            "第二卷",
+            "第二章 论主权是不可分割的"
+          ],
+          "basis": [
+            "outline",
+            "term_scan",
+            "source_inspection"
+          ]
+        },
+        {
+          "book_id": "rousseau-social-contract-zh",
+          "pdf_page_range": [
+            81,
+            81
+          ],
+          "chapter_path": [
+            "第三卷",
+            "第十五章 论议员或代表"
+          ],
+          "basis": [
+            "term_scan",
+            "source_inspection"
+          ]
+        }
+      ],
+      "judgments": [
+        {
+          "page_id": "rousseau-social-contract-zh:p0021",
+          "book_id": "rousseau-social-contract-zh",
+          "relevance": 0,
+          "supporting_sentence_ids": [],
+          "supporting_sentence_sha256": [],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "textual_note_only"
+        },
+        {
+          "page_id": "rousseau-social-contract-zh:p0025",
+          "book_id": "rousseau-social-contract-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "rousseau-social-contract-zh:p0025:s001"
+          ],
+          "supporting_sentence_sha256": [
+            "20a7d1a3bb50a3447456f88a38acca8dd76d6a8ecb2a1dbc70244e7d73d0008c"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "rousseau-social-contract-zh:p0026",
+          "book_id": "rousseau-social-contract-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "rousseau-social-contract-zh:p0026:s001"
+          ],
+          "supporting_sentence_sha256": [
+            "dbec1540c6f9d456ac1637528c398553d4d883a7b2d156e828f02a89ab5ed65a"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "rousseau-social-contract-zh:p0045",
+          "book_id": "rousseau-social-contract-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "rousseau-social-contract-zh:p0045:s014"
+          ],
+          "supporting_sentence_sha256": [
+            "51050a7bcfaa1f6dd6b3ddf5cd23b61036e0913e795efe5e2cad8242bb231eb2"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "supporting_note"
+        },
+        {
+          "page_id": "rousseau-social-contract-zh:p0012",
+          "book_id": "rousseau-social-contract-zh",
+          "relevance": 1,
+          "supporting_sentence_ids": [
+            "rousseau-social-contract-zh:p0012:s012"
+          ],
+          "supporting_sentence_sha256": [
+            "f00adc5e7f2371e5572fe4155f09d9f7f8e20cd781d9b07c9c7a29139633f48c"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "supporting_context"
+        },
+        {
+          "page_id": "rousseau-social-contract-zh:p0081",
+          "book_id": "rousseau-social-contract-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "rousseau-social-contract-zh:p0081:s009"
+          ],
+          "supporting_sentence_sha256": [
+            "7096dd378a5f435cf09ac7e6cea65804d3894d3e08c4da905b3712d0ff439436"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "independent_positive"
+        }
+      ]
+    },
+    {
+      "question_id": "rousseau-03-social-compact-freedom",
+      "question": "社会公约如何把天然自由转化为约定自由，同时形成共同体？",
+      "search_query": "社会公约 自由",
+      "category": "single_book",
+      "coverage_tags": [
+        "rousseau_sovereignty_law",
+        "社会公约",
+        "自由"
+      ],
+      "filters": {
+        "book_ids": [
+          "rousseau-social-contract-zh"
+        ],
+        "jurisdictions": [],
+        "subjects": []
+      },
+      "expected_book_ids": [
+        "rousseau-social-contract-zh"
+      ],
+      "candidate_scopes": [
+        {
+          "book_id": "rousseau-social-contract-zh",
+          "pdf_page_range": [
+            10,
+            13
+          ],
+          "chapter_path": [
+            "第一卷",
+            "第六章 论社会公约"
+          ],
+          "basis": [
+            "outline",
+            "term_scan",
+            "source_inspection"
+          ]
+        },
+        {
+          "book_id": "rousseau-social-contract-zh",
+          "pdf_page_range": [
+            21,
+            21
+          ],
+          "chapter_path": [
+            "第一卷",
+            "第九章 论财产权"
+          ],
+          "basis": [
+            "term_scan",
+            "source_inspection"
+          ]
+        }
+      ],
+      "judgments": [
+        {
+          "page_id": "rousseau-social-contract-zh:p0011",
+          "book_id": "rousseau-social-contract-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "rousseau-social-contract-zh:p0011:s005"
+          ],
+          "supporting_sentence_sha256": [
+            "c07b5d531e10ebc745d25282bf053ec22752365aa662b684fcb1916c57a8f8fc"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "rousseau-social-contract-zh:p0028",
+          "book_id": "rousseau-social-contract-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "rousseau-social-contract-zh:p0028:s010"
+          ],
+          "supporting_sentence_sha256": [
+            "d959028c19f6a8f66e632c5d476a5662dec8160ebd70f0dc3a768e468a69927f"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "rousseau-social-contract-zh:p0010",
+          "book_id": "rousseau-social-contract-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "rousseau-social-contract-zh:p0010:s014"
+          ],
+          "supporting_sentence_sha256": [
+            "9b17e05cad69289106d4b10846334e6e3e181cbe5cd9f2add6dba6baa04b04f4"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "problem_setup"
+        },
+        {
+          "page_id": "rousseau-social-contract-zh:p0102",
+          "book_id": "rousseau-social-contract-zh",
+          "relevance": 0,
+          "supporting_sentence_ids": [],
+          "supporting_sentence_sha256": [],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "incidental_terms"
+        },
+        {
+          "page_id": "rousseau-social-contract-zh:p0099",
+          "book_id": "rousseau-social-contract-zh",
+          "relevance": 0,
+          "supporting_sentence_ids": [],
+          "supporting_sentence_sha256": [],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "textual_note_only"
+        },
+        {
+          "page_id": "rousseau-social-contract-zh:p0021",
+          "book_id": "rousseau-social-contract-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "rousseau-social-contract-zh:p0021:s016"
+          ],
+          "supporting_sentence_sha256": [
+            "f02d5a0a577efe0f0bd38682311ab4d419256abd5d0e68787ddf69ccf3c8138a"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "independent_positive"
+        }
+      ]
+    },
+    {
+      "question_id": "rousseau-04-law-legislator",
+      "question": "卢梭如何区分法律、立法者与行政官，为什么立法者不能直接号令人？",
+      "search_query": "法律 立法者",
+      "category": "single_book",
+      "coverage_tags": [
+        "rousseau_sovereignty_law",
+        "法律",
+        "立法者"
+      ],
+      "filters": {
+        "book_ids": [
+          "rousseau-social-contract-zh"
+        ],
+        "jurisdictions": [],
+        "subjects": []
+      },
+      "expected_book_ids": [
+        "rousseau-social-contract-zh"
+      ],
+      "candidate_scopes": [
+        {
+          "book_id": "rousseau-social-contract-zh",
+          "pdf_page_range": [
+            32,
+            36
+          ],
+          "chapter_path": [
+            "第二卷",
+            "第七章 论立法者"
+          ],
+          "basis": [
+            "outline",
+            "term_scan",
+            "source_inspection"
+          ]
+        }
+      ],
+      "judgments": [
+        {
+          "page_id": "rousseau-social-contract-zh:p0049",
+          "book_id": "rousseau-social-contract-zh",
+          "relevance": 1,
+          "supporting_sentence_ids": [
+            "rousseau-social-contract-zh:p0049:s021"
+          ],
+          "supporting_sentence_sha256": [
+            "65fa2fd1f6a5b81fb0d76396cb56675244d1fe7c0c54f3a49e8c371b3a711f74"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "supporting_note"
+        },
+        {
+          "page_id": "rousseau-social-contract-zh:p0035",
+          "book_id": "rousseau-social-contract-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "rousseau-social-contract-zh:p0035:s023"
+          ],
+          "supporting_sentence_sha256": [
+            "4f004ff0d42d5446f89f9351851f363c1abd1e7153aa87e5bd88d514910ed088"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "rousseau-social-contract-zh:p0034",
+          "book_id": "rousseau-social-contract-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "rousseau-social-contract-zh:p0034:s001"
+          ],
+          "supporting_sentence_sha256": [
+            "35a6930d5d6bd2dc3963f0fd2e9bf0800fe391f35d4fcfb466c2e0b6d00b9747"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "rousseau-social-contract-zh:p0036",
+          "book_id": "rousseau-social-contract-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "rousseau-social-contract-zh:p0036:s006"
+          ],
+          "supporting_sentence_sha256": [
+            "b1fdfd3de1629f22d143bf82033d34e3759d0f827246e16de9f5b209bc596916"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "rousseau-social-contract-zh:p0043",
+          "book_id": "rousseau-social-contract-zh",
+          "relevance": 1,
+          "supporting_sentence_ids": [
+            "rousseau-social-contract-zh:p0043:s003"
+          ],
+          "supporting_sentence_sha256": [
+            "ff433116e50e89d0ae5e373360d83e5897d92ae934e8f774ad9a8f8062c5cb46"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "supporting_context"
+        },
+        {
+          "page_id": "rousseau-social-contract-zh:p0033",
+          "book_id": "rousseau-social-contract-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "rousseau-social-contract-zh:p0033:s021"
+          ],
+          "supporting_sentence_sha256": [
+            "a99383e0b5b9fbe4f6a5d723a0ed3f28e7891e1692fb9afebde1ee223ad804e3"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "independent_positive"
+        }
+      ]
+    },
+    {
+      "question_id": "rousseau-05-sovereign-government",
+      "question": "主权者、国家与政府是什么关系，为什么政府只是主权者的执行人和中间体？",
+      "search_query": "主权者 政府",
+      "category": "single_book",
+      "coverage_tags": [
+        "rousseau_sovereignty_law",
+        "主权者",
+        "政府"
+      ],
+      "filters": {
+        "book_ids": [
+          "rousseau-social-contract-zh"
+        ],
+        "jurisdictions": [],
+        "subjects": []
+      },
+      "expected_book_ids": [
+        "rousseau-social-contract-zh"
+      ],
+      "candidate_scopes": [
+        {
+          "book_id": "rousseau-social-contract-zh",
+          "pdf_page_range": [
+            55,
+            60
+          ],
+          "chapter_path": [
+            "第三卷",
+            "第一章 政府总论"
+          ],
+          "basis": [
+            "outline",
+            "term_scan",
+            "source_inspection"
+          ]
+        }
+      ],
+      "judgments": [
+        {
+          "page_id": "rousseau-social-contract-zh:p0056",
+          "book_id": "rousseau-social-contract-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "rousseau-social-contract-zh:p0056:s008"
+          ],
+          "supporting_sentence_sha256": [
+            "c567526468f8897d084158fb5abe1c777eb9590c0c89b614c89cc8ef6319809c"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "rousseau-social-contract-zh:p0055",
+          "book_id": "rousseau-social-contract-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "rousseau-social-contract-zh:p0055:s018"
+          ],
+          "supporting_sentence_sha256": [
+            "1ff65d5802c9826e2f465b6d06cdc789064d3e80fbd5cb319c44e26b62997b18"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "rousseau-social-contract-zh:p0087",
+          "book_id": "rousseau-social-contract-zh",
+          "relevance": 1,
+          "supporting_sentence_ids": [
+            "rousseau-social-contract-zh:p0087:s018"
+          ],
+          "supporting_sentence_sha256": [
+            "88db69584af4ffb0dbe975178bd3204db206f87833ce1743e523ed82cd530b83"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "supporting_note"
+        },
+        {
+          "page_id": "rousseau-social-contract-zh:p0083",
+          "book_id": "rousseau-social-contract-zh",
+          "relevance": 1,
+          "supporting_sentence_ids": [
+            "rousseau-social-contract-zh:p0083:s011"
+          ],
+          "supporting_sentence_sha256": [
+            "7e42f4160696587b294dccc66df6ac77f745917c5ec6b77b6106f7ed073f8aba"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "application"
+        },
+        {
+          "page_id": "rousseau-social-contract-zh:p0058",
+          "book_id": "rousseau-social-contract-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "rousseau-social-contract-zh:p0058:s003"
+          ],
+          "supporting_sentence_sha256": [
+            "873a184f714afb02177298e5f0e4ee0825706da8ed58bc4bfd451510169c8d1a"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_answer"
+        },
+        {
+          "page_id": "rousseau-social-contract-zh:p0060",
+          "book_id": "rousseau-social-contract-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "rousseau-social-contract-zh:p0060:s003"
+          ],
+          "supporting_sentence_sha256": [
+            "bf725e8afd1c883cfcd1e06748706e43b6e5e32cee88060b3ea3e8e4b646aa29"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "independent_positive"
+        }
+      ]
+    },
+    {
+      "question_id": "cross-01-recognition-integrity",
+      "question": "哈特的承认规则与德沃金的整全性分别如何说明法律根据与法律权利的识别？",
+      "search_query": "承认规则 整全性",
+      "category": "cross_book",
+      "coverage_tags": [
+        "cross_book_comparison",
+        "hart_rule_theory",
+        "dworkin_interpretation",
+        "法律根据"
+      ],
+      "filters": {
+        "book_ids": [],
+        "jurisdictions": [],
+        "subjects": [
+          "法哲学"
+        ]
+      },
+      "expected_book_ids": [
+        "hart-concept-of-law-3e-zh",
+        "dworkin-laws-empire-zh"
+      ],
+      "candidate_scopes": [
+        {
+          "book_id": "hart-concept-of-law-3e-zh",
+          "pdf_page_range": [
+            81,
+            90
+          ],
+          "chapter_path": [
+            "第六章　法体系的基础"
+          ],
+          "basis": [
+            "outline",
+            "term_scan",
+            "source_inspection"
+          ]
+        },
+        {
+          "book_id": "dworkin-laws-empire-zh",
+          "pdf_page_range": [
+            150,
+            188
+          ],
+          "chapter_path": [
+            "第六章  整全性"
+          ],
+          "basis": [
+            "outline",
+            "term_scan",
+            "source_inspection"
+          ]
+        }
+      ],
+      "judgments": [
+        {
+          "page_id": "dworkin-laws-empire-zh:p0150",
+          "book_id": "dworkin-laws-empire-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "dworkin-laws-empire-zh:p0150:s009"
+          ],
+          "supporting_sentence_sha256": [
+            "368ca6e7979c3b10b02e12698c7063216254244ccae87d30c8131f12adf669f1"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "cross_book_component"
+        },
+        {
+          "page_id": "hart-concept-of-law-3e-zh:p0085",
+          "book_id": "hart-concept-of-law-3e-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "hart-concept-of-law-3e-zh:p0085:s005"
+          ],
+          "supporting_sentence_sha256": [
+            "18a86f54c9c4227d8d4fc24c3cebc5b31e78070991183e70140af0e7eff1f018"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "cross_book_component"
+        },
+        {
+          "page_id": "dworkin-laws-empire-zh:p0217",
+          "book_id": "dworkin-laws-empire-zh",
+          "relevance": 1,
+          "supporting_sentence_ids": [
+            "dworkin-laws-empire-zh:p0217:s012"
+          ],
+          "supporting_sentence_sha256": [
+            "eea17e04b47cc6156128bb2e4d18c25f8495cd0693b8563ac3f0e24f8fcf70cc"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "cross_book_component"
+        },
+        {
+          "page_id": "dworkin-laws-empire-zh:p0160",
+          "book_id": "dworkin-laws-empire-zh",
+          "relevance": 1,
+          "supporting_sentence_ids": [
+            "dworkin-laws-empire-zh:p0160:s006"
+          ],
+          "supporting_sentence_sha256": [
+            "c00d2f7ce67f42c65fdad342afd0babc3af3c05970bf0f73bf476194079dfe71"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "cross_book_component"
+        },
+        {
+          "page_id": "hart-concept-of-law-3e-zh:p0086",
+          "book_id": "hart-concept-of-law-3e-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "hart-concept-of-law-3e-zh:p0086:s013"
+          ],
+          "supporting_sentence_sha256": [
+            "36d69d77b2e70bd6560de45cc90717055e000376fb7f651879eebdea8bdcdc48"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "cross_book_component"
+        },
+        {
+          "page_id": "dworkin-laws-empire-zh:p0181",
+          "book_id": "dworkin-laws-empire-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "dworkin-laws-empire-zh:p0181:s001"
+          ],
+          "supporting_sentence_sha256": [
+            "324fed677dc7b69663066b220d0e72d5012c62367661dc8e4b5d795245d9f743"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "independent_positive"
+        }
+      ]
+    },
+    {
+      "question_id": "cross-02-open-texture-semantic-sting",
+      "question": "哈特的开放性结构与德沃金的语义之刺如何以不同方式解释法律争议？",
+      "search_query": "开放性结构 语义之刺",
+      "category": "cross_book",
+      "coverage_tags": [
+        "cross_book_comparison",
+        "hart_rule_theory",
+        "dworkin_interpretation",
+        "法律争议"
+      ],
+      "filters": {
+        "book_ids": [],
+        "jurisdictions": [],
+        "subjects": [
+          "法哲学"
+        ]
+      },
+      "expected_book_ids": [
+        "hart-concept-of-law-3e-zh",
+        "dworkin-laws-empire-zh"
+      ],
+      "candidate_scopes": [
+        {
+          "book_id": "hart-concept-of-law-3e-zh",
+          "pdf_page_range": [
+            94,
+            99
+          ],
+          "chapter_path": [
+            "第七章　形式主义与规则怀疑论",
+            "第一节　法律的开放性结构"
+          ],
+          "basis": [
+            "outline",
+            "term_scan",
+            "source_inspection"
+          ]
+        },
+        {
+          "book_id": "hart-concept-of-law-3e-zh",
+          "pdf_page_range": [
+            131,
+            131
+          ],
+          "chapter_path": [
+            "第九章　法律与道德"
+          ],
+          "basis": [
+            "term_scan",
+            "source_inspection"
+          ]
+        },
+        {
+          "book_id": "dworkin-laws-empire-zh",
+          "pdf_page_range": [
+            46,
+            46
+          ],
+          "chapter_path": [
+            "第二章  解释性概念",
+            "语义之刺"
+          ],
+          "basis": [
+            "outline",
+            "term_scan",
+            "source_inspection"
+          ]
+        }
+      ],
+      "judgments": [
+        {
+          "page_id": "dworkin-laws-empire-zh:p0046",
+          "book_id": "dworkin-laws-empire-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "dworkin-laws-empire-zh:p0046:s001"
+          ],
+          "supporting_sentence_sha256": [
+            "511b4f627461b94e070ea18dc56470da2c509f08b7a328dbc49c1ee485aa7539"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "cross_book_component"
+        },
+        {
+          "page_id": "hart-concept-of-law-3e-zh:p0009",
+          "book_id": "hart-concept-of-law-3e-zh",
+          "relevance": 0,
+          "supporting_sentence_ids": [],
+          "supporting_sentence_sha256": [],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "navigation_only"
+        },
+        {
+          "page_id": "hart-concept-of-law-3e-zh:p0096",
+          "book_id": "hart-concept-of-law-3e-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "hart-concept-of-law-3e-zh:p0096:s003"
+          ],
+          "supporting_sentence_sha256": [
+            "dababfa81b8d505c716e3754ae78556f98de85ea494e821e22359328a9f5a429"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "cross_book_component"
+        },
+        {
+          "page_id": "hart-concept-of-law-3e-zh:p0094",
+          "book_id": "hart-concept-of-law-3e-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "hart-concept-of-law-3e-zh:p0094:s001"
+          ],
+          "supporting_sentence_sha256": [
+            "cb79a6d01b808f99bc125ccb88e1654226b4249065678de3daf94b8200ef1b51"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "cross_book_component"
+        },
+        {
+          "page_id": "dworkin-laws-empire-zh:p0082",
+          "book_id": "dworkin-laws-empire-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "dworkin-laws-empire-zh:p0082:s001"
+          ],
+          "supporting_sentence_sha256": [
+            "3721f6872935fe9e7c58eef82b3e52db27f1b19c674107e71931a51820261879"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "cross_book_component"
+        },
+        {
+          "page_id": "hart-concept-of-law-3e-zh:p0131",
+          "book_id": "hart-concept-of-law-3e-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "hart-concept-of-law-3e-zh:p0131:s007"
+          ],
+          "supporting_sentence_sha256": [
+            "12f8eed5023ca7029082669e93c16f10934f663aa3e29fb9f5cb999e195671ea"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "independent_positive"
+        }
+      ]
+    },
+    {
+      "question_id": "cross-03-discretion-hercules",
+      "question": "哈特关于司法裁量的主张与德沃金的赫拉克勒斯法官模式如何处理疑难案件？",
+      "search_query": "司法裁量 赫拉克勒斯",
+      "category": "cross_book",
+      "coverage_tags": [
+        "cross_book_comparison",
+        "hart_rule_theory",
+        "dworkin_interpretation",
+        "司法裁量"
+      ],
+      "filters": {
+        "book_ids": [],
+        "jurisdictions": [],
+        "subjects": [
+          "法哲学"
+        ]
+      },
+      "expected_book_ids": [
+        "hart-concept-of-law-3e-zh",
+        "dworkin-laws-empire-zh"
+      ],
+      "candidate_scopes": [
+        {
+          "book_id": "hart-concept-of-law-3e-zh",
+          "pdf_page_range": [
+            163,
+            164
+          ],
+          "chapter_path": [
+            "后记",
+            "六、司法裁量"
+          ],
+          "basis": [
+            "outline",
+            "term_scan",
+            "source_inspection"
+          ]
+        },
+        {
+          "book_id": "dworkin-laws-empire-zh",
+          "pdf_page_range": [
+            217,
+            217
+          ],
+          "chapter_path": [
+            "第七章  法律中的整全性"
+          ],
+          "basis": [
+            "term_scan",
+            "source_inspection"
+          ]
+        },
+        {
+          "book_id": "dworkin-laws-empire-zh",
+          "pdf_page_range": [
+            275,
+            278
+          ],
+          "chapter_path": [
+            "第九章  制定法",
+            "赫拉克勒斯的方法"
+          ],
+          "basis": [
+            "outline",
+            "term_scan",
+            "source_inspection"
+          ]
+        }
+      ],
+      "judgments": [
+        {
+          "page_id": "dworkin-laws-empire-zh:p0217",
+          "book_id": "dworkin-laws-empire-zh",
+          "relevance": 1,
+          "supporting_sentence_ids": [
+            "dworkin-laws-empire-zh:p0217:s021"
+          ],
+          "supporting_sentence_sha256": [
+            "225007d42d84edbeabe1ca8b0369d4c1b2c87a9ffd936a49f162862948ef28a5"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "cross_book_component"
+        },
+        {
+          "page_id": "hart-concept-of-law-3e-zh:p0010",
+          "book_id": "hart-concept-of-law-3e-zh",
+          "relevance": 0,
+          "supporting_sentence_ids": [],
+          "supporting_sentence_sha256": [],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "navigation_only"
+        },
+        {
+          "page_id": "dworkin-laws-empire-zh:p0275",
+          "book_id": "dworkin-laws-empire-zh",
+          "relevance": 1,
+          "supporting_sentence_ids": [
+            "dworkin-laws-empire-zh:p0275:s022"
+          ],
+          "supporting_sentence_sha256": [
+            "14534be865b2d85bad00464e6a3aa195c6a19f31a545919f3821f400039e65df"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "section_entry"
+        },
+        {
+          "page_id": "hart-concept-of-law-3e-zh:p0203",
+          "book_id": "hart-concept-of-law-3e-zh",
+          "relevance": 0,
+          "supporting_sentence_ids": [],
+          "supporting_sentence_sha256": [],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "bibliographic_only"
+        },
+        {
+          "page_id": "hart-concept-of-law-3e-zh:p0163",
+          "book_id": "hart-concept-of-law-3e-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "hart-concept-of-law-3e-zh:p0163:s009",
+            "hart-concept-of-law-3e-zh:p0163:s010"
+          ],
+          "supporting_sentence_sha256": [
+            "940c592eabe14912627d80da3484ae8be0d27da04b59a29bd2179d6a013bfe6f",
+            "0b186ee40fd401c6d0d25aad6591e80fe5ddf3120fa13f5af0255e31e7d5b0a5"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "cross_book_component"
+        },
+        {
+          "page_id": "dworkin-laws-empire-zh:p0276",
+          "book_id": "dworkin-laws-empire-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "dworkin-laws-empire-zh:p0276:s005"
+          ],
+          "supporting_sentence_sha256": [
+            "56a7f5c9fe00b9359db3ab806fe722e76b58e1ac17e413cf55269490936db05b"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "independent_positive"
+        }
+      ]
+    },
+    {
+      "question_id": "cross-04-obedience-convention",
+      "question": "哈特与德沃金如何处理以服从的习惯说明法律基础的理论？",
+      "search_query": "服从的习惯 法律",
+      "category": "cross_book",
+      "coverage_tags": [
+        "cross_book_comparison",
+        "hart_rule_theory",
+        "dworkin_interpretation",
+        "服从习惯"
+      ],
+      "filters": {
+        "book_ids": [],
+        "jurisdictions": [],
+        "subjects": [
+          "法哲学"
+        ]
+      },
+      "expected_book_ids": [
+        "hart-concept-of-law-3e-zh",
+        "dworkin-laws-empire-zh"
+      ],
+      "candidate_scopes": [
+        {
+          "book_id": "hart-concept-of-law-3e-zh",
+          "pdf_page_range": [
+            43,
+            65
+          ],
+          "chapter_path": [
+            "第四章　主权者与臣民"
+          ],
+          "basis": [
+            "outline",
+            "term_scan",
+            "source_inspection"
+          ]
+        },
+        {
+          "book_id": "dworkin-laws-empire-zh",
+          "pdf_page_range": [
+            103,
+            105
+          ],
+          "chapter_path": [
+            "第四章  惯例主义",
+            "其结构"
+          ],
+          "basis": [
+            "outline",
+            "term_scan",
+            "source_inspection"
+          ]
+        }
+      ],
+      "judgments": [
+        {
+          "page_id": "dworkin-laws-empire-zh:p0104",
+          "book_id": "dworkin-laws-empire-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "dworkin-laws-empire-zh:p0104:s014"
+          ],
+          "supporting_sentence_sha256": [
+            "754cf448f919bbcf3ee459ca6d63330bd302a9a7d15a3a1846713c01a07f5f92"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "cross_book_component"
+        },
+        {
+          "page_id": "hart-concept-of-law-3e-zh:p0057",
+          "book_id": "hart-concept-of-law-3e-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "hart-concept-of-law-3e-zh:p0057:s002"
+          ],
+          "supporting_sentence_sha256": [
+            "01ff59f0b5a52b639d4c8c3e5e38fe457c34830a26385a2ea8b830b3df36b6a1"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "cross_book_component"
+        },
+        {
+          "page_id": "hart-concept-of-law-3e-zh:p0043",
+          "book_id": "hart-concept-of-law-3e-zh",
+          "relevance": 1,
+          "supporting_sentence_ids": [
+            "hart-concept-of-law-3e-zh:p0043:s040"
+          ],
+          "supporting_sentence_sha256": [
+            "56b9af0b8ff8680e467f9ffb0187ac8e59e5034535e3d7e9cca610b081f6b56e"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "supporting_definition"
+        },
+        {
+          "page_id": "hart-concept-of-law-3e-zh:p0058",
+          "book_id": "hart-concept-of-law-3e-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "hart-concept-of-law-3e-zh:p0058:s005"
+          ],
+          "supporting_sentence_sha256": [
+            "a53a8502c984c551ba2071c7dd41aa0cc548fc75a405e204bb89b7520a38a4a1"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "cross_book_component"
+        },
+        {
+          "page_id": "hart-concept-of-law-3e-zh:p0061",
+          "book_id": "hart-concept-of-law-3e-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "hart-concept-of-law-3e-zh:p0061:s007"
+          ],
+          "supporting_sentence_sha256": [
+            "1d6fd462c61e732dd025e4d1716fd82ab0adb87859784df246b46e91ff1a63d8"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "cross_book_component"
+        },
+        {
+          "page_id": "hart-concept-of-law-3e-zh:p0060",
+          "book_id": "hart-concept-of-law-3e-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "hart-concept-of-law-3e-zh:p0060:s030"
+          ],
+          "supporting_sentence_sha256": [
+            "10c1a26f765e179ff6eedf66b252bb68f08033e8e5d4947fef9273c4b91d7a64"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "independent_positive"
+        }
+      ]
+    },
+    {
+      "question_id": "cross-05-community-obligation-will",
+      "question": "德沃金的政治共同体义务与卢梭以公意结合共同体的论证有哪些可比较之处？",
+      "search_query": "共同体 政治义务 公意",
+      "category": "cross_book",
+      "coverage_tags": [
+        "cross_book_comparison",
+        "dworkin_interpretation",
+        "rousseau_sovereignty_law",
+        "政治义务"
+      ],
+      "filters": {
+        "book_ids": [],
+        "jurisdictions": [],
+        "subjects": [
+          "法哲学"
+        ]
+      },
+      "expected_book_ids": [
+        "dworkin-laws-empire-zh",
+        "rousseau-social-contract-zh"
+      ],
+      "candidate_scopes": [
+        {
+          "book_id": "dworkin-laws-empire-zh",
+          "pdf_page_range": [
+            166,
+            180
+          ],
+          "chapter_path": [
+            "第六章  整全性",
+            "社群义务"
+          ],
+          "basis": [
+            "outline",
+            "term_scan",
+            "source_inspection"
+          ]
+        },
+        {
+          "book_id": "rousseau-social-contract-zh",
+          "pdf_page_range": [
+            10,
+            13
+          ],
+          "chapter_path": [
+            "第一卷",
+            "第六章 论社会公约"
+          ],
+          "basis": [
+            "outline",
+            "term_scan",
+            "source_inspection"
+          ]
+        }
+      ],
+      "judgments": [
+        {
+          "page_id": "dworkin-laws-empire-zh:p0173",
+          "book_id": "dworkin-laws-empire-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "dworkin-laws-empire-zh:p0173:s021"
+          ],
+          "supporting_sentence_sha256": [
+            "3edd6b83bd1e22010d7d6345f8496b44b260096fe134e30285258f37930e04be"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "cross_book_component"
+        },
+        {
+          "page_id": "rousseau-social-contract-zh:p0012",
+          "book_id": "rousseau-social-contract-zh",
+          "relevance": 1,
+          "supporting_sentence_ids": [
+            "rousseau-social-contract-zh:p0012:s021"
+          ],
+          "supporting_sentence_sha256": [
+            "4b1368413beffc6a7f349ed2f5dcf9ad78d9b7d087eabac2e2ffe5a2f9d10806"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "cross_book_component"
+        },
+        {
+          "page_id": "rousseau-social-contract-zh:p0058",
+          "book_id": "rousseau-social-contract-zh",
+          "relevance": 0,
+          "supporting_sentence_ids": [],
+          "supporting_sentence_sha256": [],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "different_community"
+        },
+        {
+          "page_id": "rousseau-social-contract-zh:p0013",
+          "book_id": "rousseau-social-contract-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "rousseau-social-contract-zh:p0013:s013"
+          ],
+          "supporting_sentence_sha256": [
+            "f8c0c16aac94cdfc0ff010b6f591eec48d22f4112834f2aed44c3b2246fae83f"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "cross_book_component"
+        },
+        {
+          "page_id": "rousseau-social-contract-zh:p0011",
+          "book_id": "rousseau-social-contract-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "rousseau-social-contract-zh:p0011:s013"
+          ],
+          "supporting_sentence_sha256": [
+            "adcb2ebce74ca45fd2510be7ab11d3bde7955de6048308cc499373be7b596b1f"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "cross_book_component"
+        },
+        {
+          "page_id": "dworkin-laws-empire-zh:p0174",
+          "book_id": "dworkin-laws-empire-zh",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "dworkin-laws-empire-zh:p0174:s003"
+          ],
+          "supporting_sentence_sha256": [
+            "4101f2f2c0b8888e720f9760d8565fd7f004123de1534be507d7ae5e06e7ce44"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "independent_positive"
+        }
+      ]
+    },
+    {
+      "question_id": "cross-06-defense-robbery",
+      "question": "抢劫行为发生或既遂后当场夺回财物时，正当防卫总论与抢劫罪分论应如何结合适用？",
+      "search_query": "正当防卫 抢劫罪",
+      "category": "cross_book",
+      "coverage_tags": [
+        "cross_book_comparison",
+        "china_criminal_general",
+        "china_criminal_special",
+        "正当防卫",
+        "抢劫罪"
+      ],
+      "filters": {
+        "book_ids": [],
+        "jurisdictions": [],
+        "subjects": [
+          "刑法"
+        ]
+      },
+      "expected_book_ids": [
+        "zhang-criminal-law-6e-v1",
+        "zhang-criminal-law-6e-v2"
+      ],
+      "candidate_scopes": [
+        {
+          "book_id": "zhang-criminal-law-6e-v1",
+          "pdf_page_range": [
+            289,
+            307
+          ],
+          "chapter_path": [
+            "第二编 犯罪论",
+            "第五章 不法"
+          ],
+          "basis": [
+            "outline",
+            "term_scan",
+            "source_inspection"
+          ]
+        },
+        {
+          "book_id": "zhang-criminal-law-6e-v2",
+          "pdf_page_range": [
+            443,
+            461
+          ],
+          "chapter_path": [
+            "第四编 罪刑各论",
+            "第二十二章 侵犯财产罪"
+          ],
+          "basis": [
+            "outline",
+            "term_scan",
+            "source_inspection"
+          ]
+        },
+        {
+          "book_id": "zhang-criminal-law-6e-v2",
+          "pdf_page_range": [
+            403,
+            403
+          ],
+          "chapter_path": [
+            "第四编 罪刑各论",
+            "第二十二章 侵犯财产罪"
+          ],
+          "basis": [
+            "term_scan",
+            "source_inspection"
+          ]
+        }
+      ],
+      "judgments": [
+        {
+          "page_id": "zhang-criminal-law-6e-v1:p0307",
+          "book_id": "zhang-criminal-law-6e-v1",
+          "relevance": 1,
+          "supporting_sentence_ids": [
+            "zhang-criminal-law-6e-v1:p0307:s019"
+          ],
+          "supporting_sentence_sha256": [
+            "d9c93a102055a54f2e7facb8d478204d8f4868e3d49f600b5feb5852fd33a1d6"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "cross_book_component"
+        },
+        {
+          "page_id": "zhang-criminal-law-6e-v2:p0031",
+          "book_id": "zhang-criminal-law-6e-v2",
+          "relevance": 1,
+          "supporting_sentence_ids": [
+            "zhang-criminal-law-6e-v2:p0031:s031"
+          ],
+          "supporting_sentence_sha256": [
+            "a644a6db29a720800ec09dc5616da0fa1d57a1c59135d082bb538cec5aefc7fd"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "offense_interpretation"
+        },
+        {
+          "page_id": "zhang-criminal-law-6e-v1:p0291",
+          "book_id": "zhang-criminal-law-6e-v1",
+          "relevance": 1,
+          "supporting_sentence_ids": [
+            "zhang-criminal-law-6e-v1:p0291:s014"
+          ],
+          "supporting_sentence_sha256": [
+            "79000f2a04d5c8e50014a10a31383d7219c15d9d2c8cc387cb509e59c98371af"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "cross_book_component"
+        },
+        {
+          "page_id": "zhang-criminal-law-6e-v2:p0453",
+          "book_id": "zhang-criminal-law-6e-v2",
+          "relevance": 0,
+          "supporting_sentence_ids": [],
+          "supporting_sentence_sha256": [],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "different_robbery_issue"
+        },
+        {
+          "page_id": "zhang-criminal-law-6e-v1:p0293",
+          "book_id": "zhang-criminal-law-6e-v1",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "zhang-criminal-law-6e-v1:p0293:s024"
+          ],
+          "supporting_sentence_sha256": [
+            "45a089fa1cedddefe0495c1fb53475c786a156c474be9f81bab73a85d3133bb1"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "direct_cross_book_bridge"
+        },
+        {
+          "page_id": "zhang-criminal-law-6e-v2:p0403",
+          "book_id": "zhang-criminal-law-6e-v2",
+          "relevance": 2,
+          "supporting_sentence_ids": [
+            "zhang-criminal-law-6e-v2:p0403:s001"
+          ],
+          "supporting_sentence_sha256": [
+            "bcc83602d3ff8533dc6150269e41ea42bf50f43caadce3da2d2b40cd41e227ba"
+          ],
+          "label_method": "source_inspection",
+          "review_status": "verified",
+          "reviewed_at": "2026-07-11T04:01:31Z",
+          "reason_code": "independent_positive"
+        }
+      ]
+    }
+  ]
+}

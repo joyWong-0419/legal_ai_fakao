@@ -1,0 +1,193 @@
+{
+  "schema_version": 1,
+  "index_version": "legal-source-v1",
+  "lexicon_version": "cn-numerals-v1",
+  "generated_at": "2026-10-25T06:44:19.836371+00:00",
+  "database": "E:\\about\\note\\fakao_note\\legal_ai\\data\\index\\legal_sources.sqlite",
+  "counts": {
+    "laws": 4,
+    "article_versions": 2337,
+    "current_articles": 2337,
+    "cross_refs": 235,
+    "version_events": 25,
+    "ingestions": 5
+  },
+  "user_version": 1,
+  "integrity_check": "ok",
+  "foreign_key_violations": 0,
+  "laws": [
+    {
+      "law_id": "civil-code-cn",
+      "title": "中华人民共和国民法典",
+      "short_title": "民法典",
+      "base_effective_from": "2021-01-01",
+      "current_articles": 1260,
+      "base_articles": 1260,
+      "supplemental_articles": 0,
+      "max_article_no": 1260,
+      "missing_article_numbers": [],
+      "duplicate_article_numbers": [],
+      "superseded_versions": 0,
+      "cross_refs": 62,
+      "dangling_cross_refs": 0,
+      "top_referenced_articles": [
+        {
+          "article_no": "510",
+          "hits": 26
+        },
+        {
+          "article_no": "243",
+          "hits": 3
+        },
+        {
+          "article_no": "511",
+          "hits": 3
+        },
+        {
+          "article_no": "1098",
+          "hits": 3
+        },
+        {
+          "article_no": "137",
+          "hits": 2
+        }
+      ],
+      "version_events": 2,
+      "source_file": "law/民法典.md",
+      "source_sha256": "b543e395d96c074117281670d9f4b5cd46d205c5116abbd91f2647fc0c904a82",
+      "text_as_of": "2021-01-01",
+      "current_version_label": "民法典原始版本"
+    },
+    {
+      "law_id": "civil-procedure-law-cn",
+      "title": "中华人民共和国民事诉讼法",
+      "short_title": "民诉法",
+      "base_effective_from": "2024-01-01",
+      "current_articles": 306,
+      "base_articles": 306,
+      "supplemental_articles": 0,
+      "max_article_no": 306,
+      "missing_article_numbers": [],
+      "duplicate_article_numbers": [],
+      "superseded_versions": 0,
+      "cross_refs": 15,
+      "dangling_cross_refs": 0,
+      "top_referenced_articles": [
+        {
+          "article_no": "211",
+          "hits": 4
+        },
+        {
+          "article_no": "122",
+          "hits": 1
+        },
+        {
+          "article_no": "139",
+          "hits": 1
+        },
+        {
+          "article_no": "141",
+          "hits": 1
+        },
+        {
+          "article_no": "144",
+          "hits": 1
+        }
+      ],
+      "version_events": 0,
+      "source_file": "law/_derived/民诉法.md",
+      "source_sha256": "8216ba3215cf7a8db246ec021f992dc7f93c2e0746d15b3c5530f2fd766ea1e9",
+      "text_as_of": "2024-01-01",
+      "current_version_label": "2023年修正"
+    },
+    {
+      "law_id": "company-law-cn",
+      "title": "中华人民共和国公司法",
+      "short_title": "公司法",
+      "base_effective_from": "2024-07-01",
+      "current_articles": 266,
+      "base_articles": 266,
+      "supplemental_articles": 0,
+      "max_article_no": 266,
+      "missing_article_numbers": [],
+      "duplicate_article_numbers": [],
+      "superseded_versions": 0,
+      "cross_refs": 37,
+      "dangling_cross_refs": 0,
+      "top_referenced_articles": [
+        {
+          "article_no": "49",
+          "hits": 2
+        },
+        {
+          "article_no": "116",
+          "hits": 2
+        },
+        {
+          "article_no": "184",
+          "hits": 2
+        },
+        {
+          "article_no": "229",
+          "hits": 2
+        },
+        {
+          "article_no": "40",
+          "hits": 1
+        }
+      ],
+      "version_events": 7,
+      "source_file": "law/公司法(2023-12-29).md",
+      "source_sha256": "f082fe63ab9f342ab89e83c13f4addad2e12dd8d486929dec351529049b0544f",
+      "text_as_of": "2024-07-01",
+      "current_version_label": "2023年修订"
+    },
+    {
+      "law_id": "criminal-law-cn",
+      "title": "中华人民共和国刑法",
+      "short_title": "刑法",
+      "base_effective_from": "1997-10-01",
+      "current_articles": 505,
+      "base_articles": 452,
+      "supplemental_articles": 53,
+      "max_article_no": 452,
+      "missing_article_numbers": [],
+      "duplicate_article_numbers": [],
+      "superseded_versions": 0,
+      "cross_refs": 121,
+      "dangling_cross_refs": 0,
+      "top_referenced_articles": [
+        {
+          "article_no": "234",
+          "hits": 7
+        },
+        {
+          "article_no": "232",
+          "hits": 6
+        },
+        {
+          "article_no": "69",
+          "hits": 4
+        },
+        {
+          "article_no": "141",
+          "hits": 4
+        },
+        {
+          "article_no": "264",
+          "hits": 4
+        }
+      ],
+      "version_events": 16,
+      "source_file": "law/刑法.md",
+      "source_sha256": "1c31c176a8378e6658443ddb81938b5ab64157820db40946f8913778ab6195a1",
+      "text_as_of": "2024-03-01",
+      "current_version_label": "刑法修正案（十二）"
+    }
+  ],
+  "caveats": [
+    "源文件为合并文本，仅含现行有效版本；逐条修正历史未获取。v1 版本的 effective_from 记为法律整体生效日，不是该条最近一次修正的生效日。",
+    "text_as_of 与 base_effective_from 由 config/legal_sources.json 人工声明，属于待核验事实。",
+    "行内交叉引用一律按同法引用（本法第X条）处理，不解析跨法引用。"
+  ]
+}

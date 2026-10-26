@@ -1,0 +1,211 @@
+{
+  "schema_version": 2,
+  "pipeline_version": "p2-ocr-v1",
+  "book_count": 4,
+  "total_pdf_pages": 1884,
+  "total_processed_pages": 1884,
+  "total_sentences": 40306,
+  "total_chunks": 3333,
+  "total_skipped_pages": 21,
+  "text_source_totals": {
+    "embedded_text": 801,
+    "empty": 21,
+    "hybrid": 0,
+    "ocr": 1062
+  },
+  "ocr_status_totals": {
+    "failed": 0,
+    "generated": 1062,
+    "not_required": 805,
+    "pending": 0,
+    "skipped": 17
+  },
+  "printed_page_status_totals": {
+    "unknown": 1884,
+    "detected": 0,
+    "verified": 0,
+    "rejected": 0
+  },
+  "books": [
+    {
+      "schema_version": 2,
+      "book_id": "civil-procedure-textbook-6e",
+      "title": "民事诉讼法学",
+      "pdf_page_count": 574,
+      "processed_page_count": 574,
+      "sentence_count": 13968,
+      "chunk_count": 1080,
+      "skipped_page_count": 3,
+      "skipped_pages": [
+        1,
+        2,
+        574
+      ],
+      "registered_excluded_pages": [],
+      "text_source_counts": {
+        "embedded_text": 571,
+        "empty": 3,
+        "hybrid": 0,
+        "ocr": 0
+      },
+      "ocr_status_counts": {
+        "failed": 0,
+        "generated": 0,
+        "not_required": 574,
+        "pending": 0,
+        "skipped": 0
+      },
+      "chapter_mapped_page_count": 574,
+      "printed_page_status_counts": {
+        "unknown": 574,
+        "detected": 0,
+        "verified": 0,
+        "rejected": 0
+      },
+      "normalization_version": "norm-v1",
+      "segmentation_version": "seg-v1",
+      "pipeline_version": "p2-ocr-v1"
+    },
+    {
+      "schema_version": 2,
+      "book_id": "contract-law-8e",
+      "title": "合同法",
+      "pdf_page_count": 518,
+      "processed_page_count": 518,
+      "sentence_count": 9934,
+      "chunk_count": 950,
+      "skipped_page_count": 6,
+      "skipped_pages": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        518
+      ],
+      "registered_excluded_pages": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        518
+      ],
+      "text_source_counts": {
+        "embedded_text": 0,
+        "empty": 6,
+        "hybrid": 0,
+        "ocr": 512
+      },
+      "ocr_status_counts": {
+        "failed": 0,
+        "generated": 512,
+        "not_required": 0,
+        "pending": 0,
+        "skipped": 6
+      },
+      "chapter_mapped_page_count": 0,
+      "printed_page_status_counts": {
+        "unknown": 518,
+        "detected": 0,
+        "verified": 0,
+        "rejected": 0
+      },
+      "normalization_version": "norm-v1",
+      "segmentation_version": "seg-v1",
+      "pipeline_version": "p2-ocr-v1"
+    },
+    {
+      "schema_version": 2,
+      "book_id": "hart-concept-of-law-3e-zh",
+      "title": "法律的概念",
+      "pdf_page_count": 231,
+      "processed_page_count": 231,
+      "sentence_count": 7527,
+      "chunk_count": 529,
+      "skipped_page_count": 1,
+      "skipped_pages": [
+        1
+      ],
+      "registered_excluded_pages": [],
+      "text_source_counts": {
+        "embedded_text": 230,
+        "empty": 1,
+        "hybrid": 0,
+        "ocr": 0
+      },
+      "ocr_status_counts": {
+        "failed": 0,
+        "generated": 0,
+        "not_required": 231,
+        "pending": 0,
+        "skipped": 0
+      },
+      "chapter_mapped_page_count": 229,
+      "bookmark_overrides": {
+        "applied": 22,
+        "unused": 0,
+        "unused_titles": [],
+        "total": 22
+      },
+      "printed_page_status_counts": {
+        "unknown": 231,
+        "detected": 0,
+        "verified": 0,
+        "rejected": 0
+      },
+      "normalization_version": "norm-v1",
+      "segmentation_version": "seg-v1",
+      "pipeline_version": "p2-ocr-v1"
+    },
+    {
+      "schema_version": 2,
+      "book_id": "yang-civil-general-2022",
+      "title": "民法总论",
+      "pdf_page_count": 561,
+      "processed_page_count": 561,
+      "sentence_count": 8877,
+      "chunk_count": 774,
+      "skipped_page_count": 11,
+      "skipped_pages": [
+        2,
+        4,
+        6,
+        20,
+        22,
+        108,
+        110,
+        248,
+        266,
+        508,
+        560
+      ],
+      "registered_excluded_pages": [
+        4
+      ],
+      "text_source_counts": {
+        "embedded_text": 0,
+        "empty": 11,
+        "hybrid": 0,
+        "ocr": 550
+      },
+      "ocr_status_counts": {
+        "failed": 0,
+        "generated": 550,
+        "not_required": 0,
+        "pending": 0,
+        "skipped": 11
+      },
+      "chapter_mapped_page_count": 0,
+      "printed_page_status_counts": {
+        "unknown": 561,
+        "detected": 0,
+        "verified": 0,
+        "rejected": 0
+      },
+      "normalization_version": "norm-v1",
+      "segmentation_version": "seg-v1",
+      "pipeline_version": "p2-ocr-v1"
+    }
+  ]
+}

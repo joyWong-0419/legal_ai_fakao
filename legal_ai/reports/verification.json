@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "verification_version": "verify-v1",
+  "generated_at": "2026-08-14T09:57:53.669487+00:00",
+  "database": "legal_corpus.sqlite",
+  "ok": true,
+  "error_count": 0,
+  "reported_issue_count": 0,
+  "issues_truncated": false,
+  "issues": [],
+  "expected_versions": {
+    "index_version": "fts5-trigram-v2",
+    "pipeline_version": "p2-ocr-v1",
+    "normalization_version": "norm-v1",
+    "segmentation_version": "seg-v1"
+  },
+  "actual_versions": {
+    "index_version": "fts5-trigram-v2",
+    "pipeline_version": "p2-ocr-v1",
+    "normalization_version": "norm-v1",
+    "segmentation_version": "seg-v1"
+  },
+  "counts": {
+    "books": 8,
+    "pages": 3836,
+    "sentences": 75243,
+    "chunks": 6664,
+    "chunks_fts": 6664,
+    "retrieval_runs": 36
+  },
+  "checks": {
+    "database_read_only": true,
+    "pdf_files_checked": 8,
+    "pages_checked": 3836,
+    "page_map_resolutions_checked": 3836,
+    "sentences_checked": 75243,
+    "chunks_checked": 6664,
+    "fts_rows_checked": 6664,
+    "retrieval_runs_checked": 36,
+    "evidence_packages_checked": 0,
+    "evidence_items_checked": 0,
+    "sqlite_integrity_check": "ok",
+    "foreign_key_violations": 0,
+    "sqlite_user_version": 2,
+    "database_counts": {
+      "books": 8,
+      "pages": 3836,
+      "sentences": 75243,
+      "chunks": 6664,
+      "chunks_fts": 6664,
+      "retrieval_runs": 36
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "schema_version": 2,
+  "index_version": "fts5-trigram-v2",
+  "pipeline_version": "p2-ocr-v1",
+  "built_at": "2026-10-25T08:28:15.142467+00:00",
+  "database_path": "legal_ai\\data\\index\\legal_corpus.sqlite",
+  "sqlite_version": "3.53.1",
+  "book_count": 9,
+  "page_count": 4410,
+  "sentence_count": 89211,
+  "chunk_count": 7744,
+  "fts_row_count": 7744,
+  "retrieval_run_count": 194,
+  "retrieval_runs_preserved": 194,
+  "integrity_check": "ok",
+  "books": [
+    {
+      "book_id": "contract-law-8e",
+      "title": "合同法",
+      "pages": 518,
+      "sentences": 9934,
+      "chunks": 950
+    },
+    {
+      "book_id": "yang-civil-general-2022",
+      "title": "民法总论",
+      "pages": 561,
+      "sentences": 8877,
+      "chunks": 774
+    },
+    {
+      "book_id": "hart-concept-of-law-3e-zh",
+      "title": "法律的概念",
+      "pages": 231,
+      "sentences": 7527,
+      "chunks": 529
+    },
+    {
+      "book_id": "zhang-criminal-law-6e-v1",
+      "title": "刑法学",
+      "pages": 869,
+      "sentences": 18645,
+      "chunks": 1632
+    },
+    {
+      "book_id": "zhang-criminal-law-6e-v2",
+      "title": "刑法学",
+      "pages": 859,
+      "sentences": 17492,
+      "chunks": 1604
+    },
+    {
+      "book_id": "klunzinger-bgb-general-zh",
+      "title": "德国民法导论：总则",
+      "pages": 285,
+      "sentences": 3451,
+      "chunks": 305
+    },
+    {
+      "book_id": "dworkin-laws-empire-zh",
+      "title": "法律帝国",
+      "pages": 365,
+      "sentences": 5755,
+      "chunks": 631
+    },
+    {
+      "book_id": "rousseau-social-contract-zh",
+      "title": "社会契约论",
+      "pages": 148,
+      "sentences": 3562,
+      "chunks": 239
+    },
+    {
+      "book_id": "civil-procedure-textbook-6e",
+      "title": "民事诉讼法学",
+      "pages": 574,
+      "sentences": 13968,
+      "chunks": 1080
+    }
+  ]
+}

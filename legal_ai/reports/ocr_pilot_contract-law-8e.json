@@ -1,0 +1,78 @@
+{
+  "schema_version": "ocr-pilot-v1",
+  "run_started_at": "2026-08-11T05:21:53.587362+00:00",
+  "elapsed_seconds": 16.375,
+  "scope": "bounded_ocr_pilot",
+  "book": {
+    "book_id": "contract-law-8e",
+    "pdf_page_count": 518,
+    "source_pdf_sha256": "891ff90ccc2c2baed8d17d37fb491ef927c7e48cd0ed2386aaa1a65e18d547da",
+    "source_pdf_unchanged": true
+  },
+  "runtime": {
+    "renderer": "pymupdf",
+    "renderer_version": "1.28.2",
+    "ocr_engine": "rapidocr",
+    "ocr_engine_version": "3.9.2",
+    "ocr_model_id": "rapidocr-default-small",
+    "onnxruntime_version": "1.28.0"
+  },
+  "parameters": {
+    "render_dpi": 300,
+    "preprocess_profile": "zh_book_cpu_v1",
+    "timeout_seconds": 90,
+    "max_attempts": 2
+  },
+  "raw_ocr_jsonl": "data\\raw\\ocr\\pages\\contract-law-8e.jsonl",
+  "summary": {
+    "requested_pages": 3,
+    "generated_pages": 3,
+    "failed_pages": 0,
+    "reused_pages": 0,
+    "all_generated_text_is_ocr_unverified": true
+  },
+  "pages": [
+    {
+      "pdf_page": 37,
+      "ocr_status": "generated",
+      "outcome": "render_reused",
+      "attempts": 1,
+      "block_count": 38,
+      "ocr_avg_confidence": 0.9928731578947368,
+      "ocr_text_sha256": "6091b3f71e6f27a822dad1f23a6d6c76d1e4b177cda3163ab6242be9788443fd",
+      "render_cache_key": "05bf51c0109b757f1c84290e239b1426e625b5cc3d307fa5523a083ee0bae38c",
+      "error_code": null
+    },
+    {
+      "pdf_page": 115,
+      "ocr_status": "generated",
+      "outcome": "render_reused",
+      "attempts": 1,
+      "block_count": 38,
+      "ocr_avg_confidence": 0.9884413157894736,
+      "ocr_text_sha256": "575cc5e49e41b4199f1aeb995e01a99158b32b19fc333edaa224335f98d01e9f",
+      "render_cache_key": "b152134257816b3a6f4e190db71420e7cd648d1aa26b004d72474236d884d6f4",
+      "error_code": null
+    },
+    {
+      "pdf_page": 337,
+      "ocr_status": "generated",
+      "outcome": "render_reused",
+      "attempts": 1,
+      "block_count": 27,
+      "ocr_avg_confidence": 0.99226,
+      "ocr_text_sha256": "d0e2dd9ae455a58bd9d4a880b7bcce7024bbd79f806c87d2bb8e153cec3e6979",
+      "render_cache_key": "255568e3f61b275c2452187cc5af6afa0b25c60e3a337301c715837c9d0779a4",
+      "error_code": null
+    }
+  ],
+  "selection": {
+    "method": "uniform_random_without_replacement",
+    "seed": 20260811,
+    "pages": [
+      37,
+      115,
+      337
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "schema_version": "external-ocr-import-v1",
+  "imported_at": "2026-08-11T14:27:52.319996+00:00",
+  "book": {
+    "book_id": "yang-civil-general-2022",
+    "pdf_page_count": 561,
+    "source_pdf_sha256": "a04bba60d7a3cfeb6d97fd6547ee82f6a1595c177e0f062be252876581da5211",
+    "source_pdf_unchanged": true
+  },
+  "input": {
+    "path": "E:\\about\\note\\fakao_note\\book\\民法总论 (杨代雄) (z-library.sk, 1lib.sk, z-lib.sk).pdf_by_PP-OCRv6.json",
+    "sha256": "83f60bf7c6d13cf22d71c3f9d1c3c9b0a25e2f611a4342800a1c57f375dfb4e6",
+    "page_result_count": 561,
+    "engine": "paddleocr",
+    "engine_version": "external-pp-ocrv6",
+    "model_id": "PP-OCRv6",
+    "preprocess_profile": "external_pp_ocrv6_json_v1",
+    "render_dpi": null
+  },
+  "raw_ocr_jsonl": "data\\raw\\ocr\\pages\\yang-civil-general-2022.jsonl",
+  "summary": {
+    "generated_pages": 550,
+    "skipped_pages": 11,
+    "failed_pages": 0,
+    "empty_source_page_count": 10,
+    "registered_exclusion_count": 1,
+    "discarded_invalid_block_count": 21,
+    "pages_with_discarded_blocks": [
+      11,
+      45,
+      49,
+      51,
+      59,
+      61,
+      63,
+      67,
+      69,
+      107,
+      129,
+      161,
+      186,
+      195,
+      213,
+      217,
+      221,
+      225,
+      253,
+      302,
+      368
+    ],
+    "all_generated_text_is_ocr_unverified": true
+  },
+  "empty_source_pages": [
+    2,
+    6,
+    20,
+    22,
+    108,
+    110,
+    248,
+    266,
+    508,
+    560
+  ],
+  "registered_excluded_pages": [
+    4
+  ],
+  "failed_pages": []
+}

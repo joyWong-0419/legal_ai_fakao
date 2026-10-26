@@ -1,0 +1,32 @@
+[
+  {
+    "prunedResult": {
+      "rec_texts": ["【合成标题】", "民事法律行为以意思表示为核心。"],
+      "rec_scores": [0.99, 0.96],
+      "rec_boxes": [[10, 20, 180, 48], [10, 60, 420, 88]],
+      "rec_polys": [[[10, 20], [180, 20], [180, 48], [10, 48]], [[10, 60], [420, 60], [420, 88], [10, 88]]]
+    },
+    "ocrImage": "ignored-local-link",
+    "inputImage": "ignored-local-link"
+  },
+  {
+    "prunedResult": {
+      "rec_texts": [],
+      "rec_scores": [],
+      "rec_boxes": [],
+      "rec_polys": []
+    },
+    "ocrImage": "ignored-local-link",
+    "inputImage": "ignored-local-link"
+  },
+  {
+    "prunedResult": {
+      "rec_texts": ["synthetic-low-confidence-noise"],
+      "rec_scores": [0.0],
+      "rec_boxes": [[10, 20, 180, 48]],
+      "rec_polys": [[[10, 20], [180, 20], [180, 48], [10, 48]]]
+    },
+    "ocrImage": "ignored-local-link",
+    "inputImage": "ignored-local-link"
+  }
+]

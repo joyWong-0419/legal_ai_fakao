@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools==81.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "local-legal-ai"
+version = "0.2.0"
+description = "Local and traceable legal-study corpus tooling"
+requires-python = ">=3.10"
+dependencies = ["pypdf>=6,<7"]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+mcp = ["mcp>=2,<3"]
+ocr = [
+    "PyMuPDF>=1.24,<2",
+    "rapidocr>=3,<4",
+    "onnxruntime>=1.18,<2",
+]
+
+[tool.setuptools]
+packages = ["legal_ai"]
+
+[tool.setuptools.package-dir]
+legal_ai = "."

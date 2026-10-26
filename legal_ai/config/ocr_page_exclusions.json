@@ -1,0 +1,43 @@
+{
+  "schema_version": "ocr-page-exclusions-v1",
+  "books": {
+    "contract-law-8e": {
+      "source_pdf_sha256": "891ff90ccc2c2baed8d17d37fb491ef927c7e48cd0ed2386aaa1a65e18d547da",
+      "pages": {
+        "1": {
+          "disposition": "frontmatter",
+          "reason": "cover; excluded from canonical legal-text OCR"
+        },
+        "2": {
+          "disposition": "frontmatter",
+          "reason": "CIP and publication metadata; excluded from canonical legal-text OCR"
+        },
+        "3": {
+          "disposition": "frontmatter",
+          "reason": "publisher statement; excluded from canonical legal-text OCR"
+        },
+        "4": {
+          "disposition": "blank",
+          "reason": "visually blank leaf with only printing specks; no OCR text expected"
+        },
+        "6": {
+          "disposition": "blank",
+          "reason": "visually blank leaf with a non-substantive sharing watermark; no OCR text expected"
+        },
+        "518": {
+          "disposition": "blank",
+          "reason": "visually blank terminal page; no OCR text expected"
+        }
+      }
+    },
+    "yang-civil-general-2022": {
+      "source_pdf_sha256": "a04bba60d7a3cfeb6d97fd6547ee82f6a1595c177e0f062be252876581da5211",
+      "pages": {
+        "4": {
+          "disposition": "blank",
+          "reason": "visually blank leaf with binding line and printing specks; no OCR text expected"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "book_id": "hart-concept-of-law-3e-zh",
+  "note": "PDF 书签字体映射损坏，部分标题乱码。此处按目录页 p9-p10 与相邻未乱码条目逐条对齐后重建；raw 书签保持不变。",
+  "source": "law/../legal_ai/data/raw/outlines/hart-concept-of-law-3e-zh.json + 目录页 p9/p10",
+  "entries": [
+    {
+      "index": 4,
+      "pdf_page": 8,
+      "level": 1,
+      "garbled": "第乜ॲ䡒䶊",
+      "title": "第三版前言"
+    },
+    {
+      "index": 9,
+      "pdf_page": 17,
+      "level": 2,
+      "garbled": "乜रŬ핟譔豧䍒",
+      "title": "三、法律和权力"
+    },
+    {
+      "index": 15,
+      "pdf_page": 34,
+      "level": 2,
+      "garbled": "第二节　乜ॎ⩓쵙൑侀끶蒋꺘",
+      "title": "第二节　三个反复出现的议题"
+    },
+    {
+      "index": 16,
+      "pdf_page": 38,
+      "level": 2,
+      "garbled": "第乜ং舰[驎",
+      "title": "第三节　定义"
+    },
+    {
+      "index": 20,
+      "pdf_page": 45,
+      "level": 1,
+      "garbled": "第乜ॺl핟譶葙ᩨ㝠",
+      "title": "第三章　法律的多样性"
+    },
+    {
+      "index": 23,
+      "pdf_page": 54,
+      "level": 2,
+      "garbled": "第乜ং舰睮遪⅟",
+      "title": "第三节　起源模式"
+    },
+    {
+      "index": 27,
+      "pdf_page": 64,
+      "level": 2,
+      "garbled": "第乜ং舰[梁쭬핧䍒魶葬핟讖偒",
+      "title": "第三节　对立法权力的法律限制"
+    },
+    {
+      "index": 32,
+      "pdf_page": 77,
+      "level": 2,
+      "garbled": "第乜ং舰l핟譶蒉腽",
+      "title": "第三节　法律的要素"
+    },
+    {
+      "index": 36,
+      "pdf_page": 90,
+      "level": 2,
+      "garbled": "第乜ং舰l핏卼ﭶ葵앴",
+      "title": "第三节　法体系的病理"
+    },
+    {
+      "index": 40,
+      "pdf_page": 102,
+      "level": 2,
+      "garbled": "第乜ং舰S했셒⑶葾졜䁠❎๎ඌⱠ",
+      "title": "第三节　司法裁判的终局性与不谬性"
+    },
+    {
+      "index": 45,
+      "pdf_page": 120,
+      "level": 2,
+      "garbled": "第乜ং舰卟띴٠๹㹏ᩢ禋",
+      "title": "第三节　道德理想与社会批评"
+    },
+    {
+      "index": 49,
+      "pdf_page": 129,
+      "level": 2,
+      "garbled": "第乜ং舰l핟譥䡒魎ຐ卟띎",
+      "title": "第三节　法律效力与道德价值"
+    },
+    {
+      "index": 53,
+      "pdf_page": 138,
+      "level": 2,
+      "garbled": "第乜ং舰N䥒ꅎ๖ﵛ뙎㭧",
+      "title": "第三节　义务与国家主权"
+    },
+    {
+      "index": 60,
+      "pdf_page": 150,
+      "level": 3,
+      "garbled": "（一｜ॏ屎㪋䥛晴ڋ멶葬핛麋셎㭎",
+      "title": "（一）作为语义学理论的法实证主义"
+    },
+    {
+      "index": 61,
+      "pdf_page": 151,
+      "level": 3,
+      "garbled": "（二｜ॏ屎㪋쩴ڋ멶葬핛麋셎㭎",
+      "title": "（二）作为诠释理论的法实证主义"
+    },
+    {
+      "index": 62,
+      "pdf_page": 153,
+      "level": 3,
+      "garbled": "（乜৿尉柔性法实证主义",
+      "title": "（三）柔性法实证主义"
+    },
+    {
+      "index": 63,
+      "pdf_page": 155,
+      "level": 2,
+      "garbled": "乜रƉ쑒᥶葧ⲍ",
+      "title": "三、规则的本质"
+    },
+    {
+      "index": 64,
+      "pdf_page": 155,
+      "level": 3,
+      "garbled": "（一｜উ쑒᥶葛麍ڋ",
+      "title": "（一）规则的实践理论"
+    },
+    {
+      "index": 65,
+      "pdf_page": 157,
+      "level": 3,
+      "garbled": "（二｜উ쑒᥎๓齒",
+      "title": "（二）规则与原则"
+    },
+    {
+      "index": 69,
+      "pdf_page": 161,
+      "level": 3,
+      "garbled": "（一｜१䍒⥎๎䥒",
+      "title": "（一）权利与义务"
+    },
+    {
+      "index": 70,
+      "pdf_page": 161,
+      "level": 3,
+      "garbled": "（二｜६핟譶蒒瑒",
+      "title": "（二）法律的鉴别"
+    },
+    {
+      "index": 73,
+      "pdf_page": 190,
+      "level": 1,
+      "garbled": "第乜ॲ䡬",
+      "title": "第三版注释"
+    }
+  ]
+}

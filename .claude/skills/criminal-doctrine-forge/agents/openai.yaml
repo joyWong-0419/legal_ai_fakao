@@ -1,0 +1,4 @@
+interface:
+  display_name: "刑法学说锻造"
+  short_description: "刑法问题强制学说对照：每个学说独立给出结论，禁止统合；附法考采信、德国法接口与出处归属"
+  default_prompt: "使用 $criminal-doctrine-forge 分析这个刑法问题：每个学说必须分别给出自己的结论，最后给出法考采信立场与理由，并标注每个学说出处的书与页。"

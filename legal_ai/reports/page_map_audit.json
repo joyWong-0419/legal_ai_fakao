@@ -1,0 +1,444 @@
+{
+  "schema_version": 1,
+  "sample_policy": {
+    "per_book": 2,
+    "seed": 20260710,
+    "deterministic": true,
+    "candidate_labels_require_visual_confirmation": true
+  },
+  "book_count": 6,
+  "total_pdf_pages": 2757,
+  "status_totals": {
+    "detected": 0,
+    "rejected": 0,
+    "unknown": 479,
+    "verified": 2278
+  },
+  "books": [
+    {
+      "book_id": "hart-concept-of-law-3e-zh",
+      "title": "法律的概念",
+      "display_title": "法律的概念 第三版",
+      "file_path": "book/天下·法律的概念(第三版) (哈特) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "pdf_page_count": 231,
+      "status_counts": {
+        "detected": 0,
+        "rejected": 0,
+        "unknown": 231,
+        "verified": 0
+      },
+      "segments": [
+        {
+          "pdf_start": 1,
+          "pdf_end": 231,
+          "printed_start": null,
+          "label_type": null,
+          "status": "unknown",
+          "verified_samples": [],
+          "inspection_samples": [
+            11,
+            120,
+            230
+          ],
+          "note": "抽样页面未显示可可靠核验的印刷页码，保持 unknown。",
+          "printed_end": null,
+          "printed_range": null
+        }
+      ],
+      "acceptance_samples": [
+        {
+          "pdf_page": 54,
+          "candidate_printed_page": null,
+          "status": "unknown",
+          "obsidian_pdf_link": "[[book/天下·法律的概念(第三版) (哈特) (z-library.sk, 1lib.sk, z-lib.sk).pdf#page=54\\|打开 PDF 第 54 页]]",
+          "snapshot_path": "legal_ai/reports/private/page_map_acceptance/hart-concept-of-law-3e-zh/pdf-0054.png",
+          "snapshot_exists": true,
+          "snapshot_sha256": "4dbf63d64c102029033e260fa05884906849f138f22b584ff397a82952f0c56b",
+          "confirmation_command": "python -m legal_ai page-map confirm --book-id hart-concept-of-law-3e-zh --pdf-page 54 --no-visible-page"
+        },
+        {
+          "pdf_page": 141,
+          "candidate_printed_page": null,
+          "status": "unknown",
+          "obsidian_pdf_link": "[[book/天下·法律的概念(第三版) (哈特) (z-library.sk, 1lib.sk, z-lib.sk).pdf#page=141\\|打开 PDF 第 141 页]]",
+          "snapshot_path": "legal_ai/reports/private/page_map_acceptance/hart-concept-of-law-3e-zh/pdf-0141.png",
+          "snapshot_exists": true,
+          "snapshot_sha256": "7b0375de35703a88f9a014914f8b47d49ce74cf0c7cc7222b5be631834e62ce2",
+          "confirmation_command": "python -m legal_ai page-map confirm --book-id hart-concept-of-law-3e-zh --pdf-page 141 --no-visible-page"
+        }
+      ]
+    },
+    {
+      "book_id": "zhang-criminal-law-6e-v1",
+      "title": "刑法学",
+      "display_title": "刑法学 第六版（上）",
+      "file_path": "book/张明楷刑法6上.pdf",
+      "pdf_page_count": 869,
+      "status_counts": {
+        "detected": 0,
+        "rejected": 0,
+        "unknown": 31,
+        "verified": 838
+      },
+      "segments": [
+        {
+          "pdf_start": 1,
+          "pdf_end": 30,
+          "printed_start": null,
+          "label_type": null,
+          "status": "unknown",
+          "verified_samples": [],
+          "inspection_samples": [],
+          "note": "封面、历版前言、目录及无可见页码的正文篇章页。",
+          "printed_end": null,
+          "printed_range": null
+        },
+        {
+          "pdf_start": 31,
+          "pdf_end": 868,
+          "printed_start": 2,
+          "label_type": "arabic",
+          "status": "verified",
+          "verified_samples": [
+            31,
+            327,
+            444,
+            449,
+            868
+          ],
+          "inspection_samples": [
+            31,
+            449,
+            868
+          ],
+          "note": "页眉页码稳定满足 printed_page = pdf_page - 29；用户已于 2026-07-11 完成随机抽查，映射已核验。",
+          "printed_end": "839",
+          "printed_range": "2-839"
+        },
+        {
+          "pdf_start": 869,
+          "pdf_end": 869,
+          "printed_start": null,
+          "label_type": null,
+          "status": "unknown",
+          "verified_samples": [],
+          "inspection_samples": [],
+          "note": "末页无正文页码。",
+          "printed_end": null,
+          "printed_range": null
+        }
+      ],
+      "acceptance_samples": [
+        {
+          "pdf_page": 327,
+          "candidate_printed_page": "298",
+          "status": "verified",
+          "obsidian_pdf_link": "[[book/张明楷刑法6上.pdf#page=327\\|打开 PDF 第 327 页]]",
+          "snapshot_path": "legal_ai/reports/private/page_map_acceptance/zhang-criminal-law-6e-v1/pdf-0327.png",
+          "snapshot_exists": true,
+          "snapshot_sha256": "2445a1aff0321a6945a6667e260132d76b5e29d4a1180109884cd0535c70e8bb",
+          "confirmation_command": "python -m legal_ai page-map confirm --book-id zhang-criminal-law-6e-v1 --pdf-page 327 --printed-page 298"
+        },
+        {
+          "pdf_page": 444,
+          "candidate_printed_page": "415",
+          "status": "verified",
+          "obsidian_pdf_link": "[[book/张明楷刑法6上.pdf#page=444\\|打开 PDF 第 444 页]]",
+          "snapshot_path": "legal_ai/reports/private/page_map_acceptance/zhang-criminal-law-6e-v1/pdf-0444.png",
+          "snapshot_exists": true,
+          "snapshot_sha256": "769394c95adad8eedd049f22cf3fbe3349a0a83b9affc22fce66b5a99718c721",
+          "confirmation_command": "python -m legal_ai page-map confirm --book-id zhang-criminal-law-6e-v1 --pdf-page 444 --printed-page 415"
+        }
+      ]
+    },
+    {
+      "book_id": "zhang-criminal-law-6e-v2",
+      "title": "刑法学",
+      "display_title": "刑法学 第六版（下）",
+      "file_path": "book/张明楷刑法6下.pdf",
+      "pdf_page_count": 859,
+      "status_counts": {
+        "detected": 0,
+        "rejected": 0,
+        "unknown": 22,
+        "verified": 837
+      },
+      "segments": [
+        {
+          "pdf_start": 1,
+          "pdf_end": 22,
+          "printed_start": null,
+          "label_type": null,
+          "status": "unknown",
+          "verified_samples": [],
+          "inspection_samples": [],
+          "note": "封面、目录和无可见页码的篇章页。",
+          "printed_end": null,
+          "printed_range": null
+        },
+        {
+          "pdf_start": 23,
+          "pdf_end": 859,
+          "printed_start": 844,
+          "label_type": "arabic",
+          "status": "verified",
+          "verified_samples": [
+            23,
+            441,
+            576,
+            748,
+            859
+          ],
+          "inspection_samples": [
+            23,
+            441,
+            859
+          ],
+          "note": "页眉页码稳定满足 printed_page = pdf_page + 821；用户已于 2026-07-11 完成随机抽查，映射已核验。",
+          "printed_end": "1680",
+          "printed_range": "844-1680"
+        }
+      ],
+      "acceptance_samples": [
+        {
+          "pdf_page": 576,
+          "candidate_printed_page": "1397",
+          "status": "verified",
+          "obsidian_pdf_link": "[[book/张明楷刑法6下.pdf#page=576\\|打开 PDF 第 576 页]]",
+          "snapshot_path": "legal_ai/reports/private/page_map_acceptance/zhang-criminal-law-6e-v2/pdf-0576.png",
+          "snapshot_exists": true,
+          "snapshot_sha256": "8e129650b49e17a136e12b65d4b99fa9efcde4e31ee5b1130f2708c1ce4ffe72",
+          "confirmation_command": "python -m legal_ai page-map confirm --book-id zhang-criminal-law-6e-v2 --pdf-page 576 --printed-page 1397"
+        },
+        {
+          "pdf_page": 748,
+          "candidate_printed_page": "1569",
+          "status": "verified",
+          "obsidian_pdf_link": "[[book/张明楷刑法6下.pdf#page=748\\|打开 PDF 第 748 页]]",
+          "snapshot_path": "legal_ai/reports/private/page_map_acceptance/zhang-criminal-law-6e-v2/pdf-0748.png",
+          "snapshot_exists": true,
+          "snapshot_sha256": "8d4a6a77f2e7d3aadefb81cb305be5293cd0d82a94f521cad80000272654e006",
+          "confirmation_command": "python -m legal_ai page-map confirm --book-id zhang-criminal-law-6e-v2 --pdf-page 748 --printed-page 1569"
+        }
+      ]
+    },
+    {
+      "book_id": "klunzinger-bgb-general-zh",
+      "title": "德国民法导论：总则",
+      "display_title": "德国民法导论：总则",
+      "file_path": "book/德国民法导论：总则【数字版】 ([德] 欧根·克伦钦格) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "pdf_page_count": 285,
+      "status_counts": {
+        "detected": 0,
+        "rejected": 0,
+        "unknown": 36,
+        "verified": 249
+      },
+      "segments": [
+        {
+          "pdf_start": 1,
+          "pdf_end": 35,
+          "printed_start": null,
+          "label_type": null,
+          "status": "unknown",
+          "verified_samples": [],
+          "inspection_samples": [],
+          "note": "前言、目录、篇章页及无可见页码页面。",
+          "printed_end": null,
+          "printed_range": null
+        },
+        {
+          "pdf_start": 36,
+          "pdf_end": 284,
+          "printed_start": 4,
+          "label_type": "arabic",
+          "status": "verified",
+          "verified_samples": [
+            36,
+            159,
+            273,
+            284
+          ],
+          "inspection_samples": [
+            36,
+            159,
+            284
+          ],
+          "note": "页眉页码稳定满足 printed_page = pdf_page - 32；用户已于 2026-07-11 完成随机抽查，映射已核验。",
+          "printed_end": "252",
+          "printed_range": "4-252"
+        },
+        {
+          "pdf_start": 285,
+          "pdf_end": 285,
+          "printed_start": null,
+          "label_type": null,
+          "status": "unknown",
+          "verified_samples": [],
+          "inspection_samples": [],
+          "note": "封底页。",
+          "printed_end": null,
+          "printed_range": null
+        }
+      ],
+      "acceptance_samples": [
+        {
+          "pdf_page": 36,
+          "candidate_printed_page": "4",
+          "status": "verified",
+          "obsidian_pdf_link": "[[book/德国民法导论：总则【数字版】 ([德] 欧根·克伦钦格) (z-library.sk, 1lib.sk, z-lib.sk).pdf#page=36\\|打开 PDF 第 36 页]]",
+          "snapshot_path": "legal_ai/reports/private/page_map_acceptance/klunzinger-bgb-general-zh/pdf-0036.png",
+          "snapshot_exists": true,
+          "snapshot_sha256": "75a4e745592074e677d6a4ceaed04c327847589668296dfa762df2827949bc38",
+          "confirmation_command": "python -m legal_ai page-map confirm --book-id klunzinger-bgb-general-zh --pdf-page 36 --printed-page 4"
+        },
+        {
+          "pdf_page": 273,
+          "candidate_printed_page": "241",
+          "status": "verified",
+          "obsidian_pdf_link": "[[book/德国民法导论：总则【数字版】 ([德] 欧根·克伦钦格) (z-library.sk, 1lib.sk, z-lib.sk).pdf#page=273\\|打开 PDF 第 273 页]]",
+          "snapshot_path": "legal_ai/reports/private/page_map_acceptance/klunzinger-bgb-general-zh/pdf-0273.png",
+          "snapshot_exists": true,
+          "snapshot_sha256": "5f71f26463d64ad05337e989a43143e20966783327000fb87f347333b8cb6b36",
+          "confirmation_command": "python -m legal_ai page-map confirm --book-id klunzinger-bgb-general-zh --pdf-page 273 --printed-page 241"
+        }
+      ]
+    },
+    {
+      "book_id": "dworkin-laws-empire-zh",
+      "title": "法律帝国",
+      "display_title": "法律帝国",
+      "file_path": "book/法律帝国 = Law’s Empire (罗纳德·德沃金, Ronald Dworkin, 许杨勇 (译)) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "pdf_page_count": 365,
+      "status_counts": {
+        "detected": 0,
+        "rejected": 0,
+        "unknown": 11,
+        "verified": 354
+      },
+      "segments": [
+        {
+          "pdf_start": 1,
+          "pdf_end": 10,
+          "printed_start": null,
+          "label_type": null,
+          "status": "unknown",
+          "verified_samples": [],
+          "inspection_samples": [],
+          "note": "封面、序言和目录存在重置页码，当前不合并推断。",
+          "printed_end": null,
+          "printed_range": null
+        },
+        {
+          "pdf_start": 11,
+          "pdf_end": 364,
+          "printed_start": 1,
+          "label_type": "arabic",
+          "status": "verified",
+          "verified_samples": [
+            11,
+            66,
+            188,
+            244,
+            364
+          ],
+          "inspection_samples": [
+            11,
+            188,
+            364
+          ],
+          "note": "正文页脚稳定满足 printed_page = pdf_page - 10；用户已于 2026-07-11 完成随机抽查，映射已核验。",
+          "printed_end": "354",
+          "printed_range": "1-354"
+        },
+        {
+          "pdf_start": 365,
+          "pdf_end": 365,
+          "printed_start": null,
+          "label_type": null,
+          "status": "unknown",
+          "verified_samples": [],
+          "inspection_samples": [],
+          "note": "出版信息页。",
+          "printed_end": null,
+          "printed_range": null
+        }
+      ],
+      "acceptance_samples": [
+        {
+          "pdf_page": 66,
+          "candidate_printed_page": "56",
+          "status": "verified",
+          "obsidian_pdf_link": "[[book/法律帝国 = Law’s Empire (罗纳德·德沃金, Ronald Dworkin, 许杨勇 (译)) (z-library.sk, 1lib.sk, z-lib.sk).pdf#page=66\\|打开 PDF 第 66 页]]",
+          "snapshot_path": "legal_ai/reports/private/page_map_acceptance/dworkin-laws-empire-zh/pdf-0066.png",
+          "snapshot_exists": true,
+          "snapshot_sha256": "86f78c0765188bd62cb5b51da375af47ca93483f33a89c781a2d3bf63b3b381c",
+          "confirmation_command": "python -m legal_ai page-map confirm --book-id dworkin-laws-empire-zh --pdf-page 66 --printed-page 56"
+        },
+        {
+          "pdf_page": 244,
+          "candidate_printed_page": "234",
+          "status": "verified",
+          "obsidian_pdf_link": "[[book/法律帝国 = Law’s Empire (罗纳德·德沃金, Ronald Dworkin, 许杨勇 (译)) (z-library.sk, 1lib.sk, z-lib.sk).pdf#page=244\\|打开 PDF 第 244 页]]",
+          "snapshot_path": "legal_ai/reports/private/page_map_acceptance/dworkin-laws-empire-zh/pdf-0244.png",
+          "snapshot_exists": true,
+          "snapshot_sha256": "6cf74be3a7f6e445845505b66bdff9727abe2276c27a3899baa22fd9f17c5674",
+          "confirmation_command": "python -m legal_ai page-map confirm --book-id dworkin-laws-empire-zh --pdf-page 244 --printed-page 234"
+        }
+      ]
+    },
+    {
+      "book_id": "rousseau-social-contract-zh",
+      "title": "社会契约论",
+      "display_title": "社会契约论",
+      "file_path": "book/社会契约论 (卢梭) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "pdf_page_count": 148,
+      "status_counts": {
+        "detected": 0,
+        "rejected": 0,
+        "unknown": 148,
+        "verified": 0
+      },
+      "segments": [
+        {
+          "pdf_start": 1,
+          "pdf_end": 148,
+          "printed_start": null,
+          "label_type": null,
+          "status": "unknown",
+          "verified_samples": [],
+          "inspection_samples": [
+            3,
+            75,
+            148
+          ],
+          "note": "电子版抽样页面未显示可可靠核验的印刷页码，保持 unknown。",
+          "printed_end": null,
+          "printed_range": null
+        }
+      ],
+      "acceptance_samples": [
+        {
+          "pdf_page": 81,
+          "candidate_printed_page": null,
+          "status": "unknown",
+          "obsidian_pdf_link": "[[book/社会契约论 (卢梭) (z-library.sk, 1lib.sk, z-lib.sk).pdf#page=81\\|打开 PDF 第 81 页]]",
+          "snapshot_path": "legal_ai/reports/private/page_map_acceptance/rousseau-social-contract-zh/pdf-0081.png",
+          "snapshot_exists": true,
+          "snapshot_sha256": "2a025b757f5b1928c6f0fc312d9f2e9bbee5dbe6c572e60a12eece32f13d3dee",
+          "confirmation_command": "python -m legal_ai page-map confirm --book-id rousseau-social-contract-zh --pdf-page 81 --no-visible-page"
+        },
+        {
+          "pdf_page": 133,
+          "candidate_printed_page": null,
+          "status": "unknown",
+          "obsidian_pdf_link": "[[book/社会契约论 (卢梭) (z-library.sk, 1lib.sk, z-lib.sk).pdf#page=133\\|打开 PDF 第 133 页]]",
+          "snapshot_path": "legal_ai/reports/private/page_map_acceptance/rousseau-social-contract-zh/pdf-0133.png",
+          "snapshot_exists": true,
+          "snapshot_sha256": "ed18659924262ad14777925b767dd201d14ffe6ae7ac5eead22a18eeb2b577c7",
+          "confirmation_command": "python -m legal_ai page-map confirm --book-id rousseau-social-contract-zh --pdf-page 133 --no-visible-page"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "schema_version": 1,
+  "book_count": 9,
+  "books": [
+    {
+      "book_id": "contract-law-8e",
+      "title": "合同法",
+      "file_path": "books/合同法（第八版）.pdf",
+      "expected_pdf_pages": 518,
+      "actual_pdf_pages": 518,
+      "sha256": "891ff90ccc2c2baed8d17d37fb491ef927c7e48cd0ed2386aaa1a65e18d547da",
+      "jurisdictions": [
+        "中国"
+      ],
+      "subjects": [
+        "民法",
+        "合同法"
+      ],
+      "source_type": "学理来源",
+      "authority_tier": "secondary",
+      "extract_mode": null,
+      "text_layer_policy": "ignore",
+      "ocr_policy": "all_pages",
+      "ocr_profile": "zh_book_cpu_v1"
+    },
+    {
+      "book_id": "yang-civil-general-2022",
+      "title": "民法总论",
+      "file_path": "books/民法总论（杨代雄）.pdf",
+      "expected_pdf_pages": 561,
+      "actual_pdf_pages": 561,
+      "sha256": "a04bba60d7a3cfeb6d97fd6547ee82f6a1595c177e0f062be252876581da5211",
+      "jurisdictions": [
+        "中国"
+      ],
+      "subjects": [
+        "民法",
+        "民法总论"
+      ],
+      "source_type": "学理来源",
+      "authority_tier": "secondary",
+      "extract_mode": null,
+      "text_layer_policy": "ignore",
+      "ocr_policy": "all_pages",
+      "ocr_profile": "external_pp_ocrv6_json_v1"
+    },
+    {
+      "book_id": "hart-concept-of-law-3e-zh",
+      "title": "法律的概念",
+      "file_path": "books/天下·法律的概念.pdf",
+      "expected_pdf_pages": 231,
+      "actual_pdf_pages": 231,
+      "sha256": "bd511d08b614387e140d36c00db1bfec80ffd65091c4871c3a57a9d04df73846",
+      "jurisdictions": [
+        "跨法域"
+      ],
+      "subjects": [
+        "法哲学",
+        "法理学"
+      ],
+      "source_type": "学理来源",
+      "authority_tier": "secondary",
+      "extract_mode": "embedded_text",
+      "text_layer_policy": "embedded_only",
+      "ocr_policy": "off",
+      "ocr_profile": null
+    },
+    {
+      "book_id": "zhang-criminal-law-6e-v1",
+      "title": "刑法学",
+      "file_path": "books/张明楷刑法6上.pdf",
+      "expected_pdf_pages": 869,
+      "actual_pdf_pages": 869,
+      "sha256": "bf38ca60fe5077da8b71364f168b64d50b99a7849e83ac9bfca79a58b3157478",
+      "jurisdictions": [
+        "中国"
+      ],
+      "subjects": [
+        "刑法",
+        "刑法总论"
+      ],
+      "source_type": "学理来源",
+      "authority_tier": "secondary",
+      "extract_mode": "embedded_text",
+      "text_layer_policy": "embedded_only",
+      "ocr_policy": "off",
+      "ocr_profile": null
+    },
+    {
+      "book_id": "zhang-criminal-law-6e-v2",
+      "title": "刑法学",
+      "file_path": "books/张明楷刑法6下.pdf",
+      "expected_pdf_pages": 859,
+      "actual_pdf_pages": 859,
+      "sha256": "4236a5d04618ae4be30c2d24367e09a37a10d05f780bb5a7272ba4244dbcbef4",
+      "jurisdictions": [
+        "中国"
+      ],
+      "subjects": [
+        "刑法",
+        "刑法分论"
+      ],
+      "source_type": "学理来源",
+      "authority_tier": "secondary",
+      "extract_mode": "embedded_text",
+      "text_layer_policy": "embedded_only",
+      "ocr_policy": "off",
+      "ocr_profile": null
+    },
+    {
+      "book_id": "klunzinger-bgb-general-zh",
+      "title": "德国民法导论：总则",
+      "file_path": "books/德国民法导论：总则.pdf",
+      "expected_pdf_pages": 285,
+      "actual_pdf_pages": 285,
+      "sha256": "cc06ec49de0e1af7c431c89f70e30a814464ded17bf9d20cef5f600daeb45a72",
+      "jurisdictions": [
+        "德国"
+      ],
+      "subjects": [
+        "民法",
+        "民法总则"
+      ],
+      "source_type": "学理来源",
+      "authority_tier": "secondary",
+      "extract_mode": "embedded_text",
+      "text_layer_policy": "embedded_only",
+      "ocr_policy": "off",
+      "ocr_profile": null
+    },
+    {
+      "book_id": "dworkin-laws-empire-zh",
+      "title": "法律帝国",
+      "file_path": "books/法律帝国.pdf",
+      "expected_pdf_pages": 365,
+      "actual_pdf_pages": 365,
+      "sha256": "8909bd54dadf49f7bb2b2cc801a87ab9ca8dac905bd67d9840ee2e8d98c6a930",
+      "jurisdictions": [
+        "跨法域"
+      ],
+      "subjects": [
+        "法哲学",
+        "法律解释"
+      ],
+      "source_type": "学理来源",
+      "authority_tier": "secondary",
+      "extract_mode": "embedded_text",
+      "text_layer_policy": "embedded_only",
+      "ocr_policy": "off",
+      "ocr_profile": null
+    },
+    {
+      "book_id": "rousseau-social-contract-zh",
+      "title": "社会契约论",
+      "file_path": "books/社会契约论.pdf",
+      "expected_pdf_pages": 148,
+      "actual_pdf_pages": 148,
+      "sha256": "62d8fb24065b253dee278281674395c00df832b129d9890ca0f69a8e608fc0ef",
+      "jurisdictions": [
+        "跨法域"
+      ],
+      "subjects": [
+        "政治哲学",
+        "法哲学"
+      ],
+      "source_type": "学理来源",
+      "authority_tier": "secondary",
+      "extract_mode": "embedded_text",
+      "text_layer_policy": "embedded_only",
+      "ocr_policy": "off",
+      "ocr_profile": null
+    },
+    {
+      "book_id": "civil-procedure-textbook-6e",
+      "title": "民事诉讼法学",
+      "file_path": "books/民事诉讼法学（第六版）.pdf",
+      "expected_pdf_pages": 574,
+      "actual_pdf_pages": 574,
+      "sha256": "49b31c86c39960a91d4fb53c7cd38259c3f4c00761de1868ca5fa2b3f6d1f340",
+      "jurisdictions": [
+        "中国"
+      ],
+      "subjects": [
+        "民诉法"
+      ],
+      "source_type": "学理来源",
+      "authority_tier": "secondary",
+      "extract_mode": "embedded_text",
+      "text_layer_policy": "embedded_only",
+      "ocr_policy": "off",
+      "ocr_profile": null
+    }
+  ]
+}

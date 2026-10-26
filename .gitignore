@@ -1,0 +1,26 @@
+# Local/private derivatives of copyrighted books
+/legal_ai/data/
+
+# v2 project-local runtime, OCR cache and models
+/.venv/
+/.runtime/
+/.cache/
+/vendor/models/
+/vendor/tessdata/
+
+# Generated reports that may contain source text
+/legal_ai/reports/private/
+/legal_ai/reports/*.log
+/legal_ai/reports/*.pid
+/法学攻克系统/AI法律学习系统/证据笔记/
+
+# Local databases and Python build products
+*.sqlite
+*.sqlite3
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+*.egg-info/
+dist/
+build/

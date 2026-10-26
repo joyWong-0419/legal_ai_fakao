@@ -1,0 +1,209 @@
+[
+  {
+    "book_id": "hart-concept-of-law-3e-zh",
+    "segments": [
+      {
+        "pdf_start": 1,
+        "pdf_end": 231,
+        "printed_start": null,
+        "label_type": null,
+        "status": "unknown",
+        "verified_samples": [],
+        "inspection_samples": [
+          11,
+          120,
+          230
+        ],
+        "note": "抽样页面未显示可可靠核验的印刷页码，保持 unknown。"
+      }
+    ]
+  },
+  {
+    "book_id": "zhang-criminal-law-6e-v1",
+    "segments": [
+      {
+        "pdf_start": 1,
+        "pdf_end": 30,
+        "printed_start": null,
+        "label_type": null,
+        "status": "unknown",
+        "verified_samples": [],
+        "inspection_samples": [],
+        "note": "封面、历版前言、目录及无可见页码的正文篇章页。"
+      },
+      {
+        "pdf_start": 31,
+        "pdf_end": 868,
+        "printed_start": 2,
+        "label_type": "arabic",
+        "status": "verified",
+        "verified_samples": [
+          31,
+          327,
+          444,
+          449,
+          868
+        ],
+        "inspection_samples": [
+          31,
+          449,
+          868
+        ],
+        "note": "页眉页码稳定满足 printed_page = pdf_page - 29；用户已于 2026-07-11 完成随机抽查，映射已核验。"
+      },
+      {
+        "pdf_start": 869,
+        "pdf_end": 869,
+        "printed_start": null,
+        "label_type": null,
+        "status": "unknown",
+        "verified_samples": [],
+        "inspection_samples": [],
+        "note": "末页无正文页码。"
+      }
+    ]
+  },
+  {
+    "book_id": "zhang-criminal-law-6e-v2",
+    "segments": [
+      {
+        "pdf_start": 1,
+        "pdf_end": 22,
+        "printed_start": null,
+        "label_type": null,
+        "status": "unknown",
+        "verified_samples": [],
+        "inspection_samples": [],
+        "note": "封面、目录和无可见页码的篇章页。"
+      },
+      {
+        "pdf_start": 23,
+        "pdf_end": 859,
+        "printed_start": 844,
+        "label_type": "arabic",
+        "status": "verified",
+        "verified_samples": [
+          23,
+          441,
+          576,
+          748,
+          859
+        ],
+        "inspection_samples": [
+          23,
+          441,
+          859
+        ],
+        "note": "页眉页码稳定满足 printed_page = pdf_page + 821；用户已于 2026-07-11 完成随机抽查，映射已核验。"
+      }
+    ]
+  },
+  {
+    "book_id": "klunzinger-bgb-general-zh",
+    "segments": [
+      {
+        "pdf_start": 1,
+        "pdf_end": 35,
+        "printed_start": null,
+        "label_type": null,
+        "status": "unknown",
+        "verified_samples": [],
+        "inspection_samples": [],
+        "note": "前言、目录、篇章页及无可见页码页面。"
+      },
+      {
+        "pdf_start": 36,
+        "pdf_end": 284,
+        "printed_start": 4,
+        "label_type": "arabic",
+        "status": "verified",
+        "verified_samples": [
+          36,
+          159,
+          273,
+          284
+        ],
+        "inspection_samples": [
+          36,
+          159,
+          284
+        ],
+        "note": "页眉页码稳定满足 printed_page = pdf_page - 32；用户已于 2026-07-11 完成随机抽查，映射已核验。"
+      },
+      {
+        "pdf_start": 285,
+        "pdf_end": 285,
+        "printed_start": null,
+        "label_type": null,
+        "status": "unknown",
+        "verified_samples": [],
+        "inspection_samples": [],
+        "note": "封底页。"
+      }
+    ]
+  },
+  {
+    "book_id": "dworkin-laws-empire-zh",
+    "segments": [
+      {
+        "pdf_start": 1,
+        "pdf_end": 10,
+        "printed_start": null,
+        "label_type": null,
+        "status": "unknown",
+        "verified_samples": [],
+        "inspection_samples": [],
+        "note": "封面、序言和目录存在重置页码，当前不合并推断。"
+      },
+      {
+        "pdf_start": 11,
+        "pdf_end": 364,
+        "printed_start": 1,
+        "label_type": "arabic",
+        "status": "verified",
+        "verified_samples": [
+          11,
+          66,
+          188,
+          244,
+          364
+        ],
+        "inspection_samples": [
+          11,
+          188,
+          364
+        ],
+        "note": "正文页脚稳定满足 printed_page = pdf_page - 10；用户已于 2026-07-11 完成随机抽查，映射已核验。"
+      },
+      {
+        "pdf_start": 365,
+        "pdf_end": 365,
+        "printed_start": null,
+        "label_type": null,
+        "status": "unknown",
+        "verified_samples": [],
+        "inspection_samples": [],
+        "note": "出版信息页。"
+      }
+    ]
+  },
+  {
+    "book_id": "rousseau-social-contract-zh",
+    "segments": [
+      {
+        "pdf_start": 1,
+        "pdf_end": 148,
+        "printed_start": null,
+        "label_type": null,
+        "status": "unknown",
+        "verified_samples": [],
+        "inspection_samples": [
+          3,
+          75,
+          148
+        ],
+        "note": "电子版抽样页面未显示可可靠核验的印刷页码，保持 unknown。"
+      }
+    ]
+  }
+]
