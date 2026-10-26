@@ -2,7 +2,7 @@
   "mcpServers": {
     "legal-ai": {
       "type": "stdio",
-      "command": "E:\\about\\note\\fakao_note\\.venv\\Scripts\\python.exe",
+      "command": ".venv\\Scripts\\python.exe",
       "args": [
         "-m",
         "legal_ai.mcp_server"
