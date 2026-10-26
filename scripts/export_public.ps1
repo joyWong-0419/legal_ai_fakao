@@ -53,8 +53,10 @@ if ((Test-Path -LiteralPath $targetPath) -and -not $Force) {
     }
 }
 if ($Force -and (Test-Path -LiteralPath $targetPath)) {
-    Write-Host "清空目标目录：$targetPath"
-    Get-ChildItem -LiteralPath $targetPath -Force | Remove-Item -Recurse -Force
+    Write-Host "清空目标目录：$targetPath（保留 .git）"
+    Get-ChildItem -LiteralPath $targetPath -Force |
+        Where-Object { $_.Name -ne '.git' } |
+        Remove-Item -Recurse -Force
 }
 New-Item -ItemType Directory -Path $targetPath -Force | Out-Null
 
